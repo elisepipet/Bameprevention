@@ -1,0 +1,10 @@
+node_modules
+.github
+.git
+*.py
+__pycache__
+*.pyc
+wrangler.toml
+.assetsignore
+.gitignore
+SETUP.md
