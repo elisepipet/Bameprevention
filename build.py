@@ -10,6 +10,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 
+# Domaine réellement en ligne actuellement. À remplacer par
+# "https://www.bameprevention.fr" une fois le nom de domaine définitif
+# connecté (sinon les aperçus de lien / og:image pointent dans le vide).
+BASE_URL = "https://dev.bameprevention.workers.dev"
+
 MOIS_FR = [
     "janvier", "février", "mars", "avril", "mai", "juin",
     "juillet", "août", "septembre", "octobre", "novembre", "décembre",
@@ -86,18 +91,18 @@ def render_head(title, description, canonical):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{description}">
-<link rel="canonical" href="https://www.bameprevention.fr{canonical}">
+<link rel="canonical" href="{BASE_URL}{canonical}">
 <link rel="icon" href="/assets/images/logo-bame.jpg">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:url" content="https://www.bameprevention.fr{canonical}">
-<meta property="og:image" content="https://www.bameprevention.fr/assets/images/logo-bame.jpg">
+<meta property="og:url" content="{BASE_URL}{canonical}">
+<meta property="og:image" content="{BASE_URL}/assets/images/logo-bame.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{description}">
-<meta name="twitter:image" content="https://www.bameprevention.fr/assets/images/logo-bame.jpg">
+<meta name="twitter:image" content="{BASE_URL}/assets/images/logo-bame.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
