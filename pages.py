@@ -70,35 +70,35 @@ INDEX_BODY = f"""
     </div>
     <div class="grid grid-3" style="margin-top:40px;">
       <div class="training-card">
-        <div class="training-card__top"><div class="duration">14h — 2 jours</div><h3 style="color:#fff;margin:0;">SST Initial</h3></div>
+        <div class="training-card__top"><h3 style="color:#fff;margin:0;">SST Initial</h3><div class="duration" style="margin-top:4px;">14h — 2 jours</div></div>
         <div class="training-card__body">
           <p>Sauveteur Secouriste du Travail. Protéger, examiner, faire alerter ou alerter, secourir — une formation complète pour réagir efficacement face à un accident.</p>
           <a class="btn btn-outline btn-sm" href="/sst.html">Découvrir la formation</a>
         </div>
       </div>
       <div class="training-card">
-        <div class="training-card__top"><div class="duration">7h</div><h3 style="color:#fff;margin:0;">MAC SST</h3></div>
+        <div class="training-card__top"><h3 style="color:#fff;margin:0;">MAC SST</h3><div class="duration" style="margin-top:4px;">7h</div></div>
         <div class="training-card__body">
           <p>Maintien et actualisation des compétences SST. Démontrez que rien n'a été oublié de votre formation initiale.</p>
           <a class="btn btn-outline btn-sm" href="/mac-sst.html">Découvrir la formation</a>
         </div>
       </div>
       <div class="training-card">
-        <div class="training-card__top"><div class="duration">3h30 à 7h</div><h3 style="color:#fff;margin:0;">Gestes qui sauvent</h3></div>
+        <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes qui sauvent</h3><div class="duration" style="margin-top:4px;">3h30 à 7h</div></div>
         <div class="training-card__body">
           <p>Les bonnes pratiques de secours, en initiation ou en sensibilisation — essentielles au quotidien, pour tous.</p>
           <a class="btn btn-outline btn-sm" href="/secours.html">Découvrir la formation</a>
         </div>
       </div>
       <div class="training-card">
-        <div class="training-card__top"><div class="duration">7h</div><h3 style="color:#fff;margin:0;">Gestes &amp; Postures</h3></div>
+        <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes &amp; Postures</h3><div class="duration" style="margin-top:4px;">7h</div></div>
         <div class="training-card__body">
           <p>Prévention des TMS. Les bons gestes pour se protéger des maladies professionnelles, dans tous les secteurs d'activité.</p>
           <a class="btn btn-outline btn-sm" href="/gestes-et-postures.html">Découvrir la formation</a>
         </div>
       </div>
       <div class="training-card">
-        <div class="training-card__top"><div class="duration">Conseil</div><h3 style="color:#fff;margin:0;">DUERP</h3></div>
+        <div class="training-card__top"><h3 style="color:#fff;margin:0;">DUERP</h3><div class="duration" style="margin-top:4px;">Conseil</div></div>
         <div class="training-card__body">
           <p>Document Unique d'Évaluation des Risques Professionnels. Un accompagnement pour évaluer et consigner les risques de votre entreprise.</p>
           <a class="btn btn-outline btn-sm" href="/duerp.html">Découvrir la prestation</a>
