@@ -382,7 +382,7 @@ PHILOSOPHIE_BODY = f"""
       <div class="card">
         <div class="icon">{ICONS['award']}</div>
         <h3>Qualité</h3>
-        <p class="muted">Une démarche qualité au service de votre sécurité. Organisme de formation déclaré (NDA n° 11770808577), formatrice SST certifiée INRS, démarche inspirée du référentiel Qualiopi : la rigueur au service de votre confiance.</p>
+        <p class="muted">Une démarche qualité au service de votre sécurité. Organisme de formation déclaré (NDA n° 11770808577), formatrice Sauveteur Secouriste du Travail habilitée par le réseau Assurance Maladie / INRS (habilitation n° ALC27016), démarche inspirée du référentiel Qualiopi : la rigueur au service de votre confiance.</p>
       </div>
       <div class="card">
         <div class="icon">{ICONS['users']}</div>
@@ -472,6 +472,8 @@ def formation_page(
           {doc_block}
         </div>
         <div class="divider" style="margin:24px 0;"></div>
+        <p class="muted" style="font-size:.78rem;"><strong>Financement :</strong> formation facturée à l'entreprise, qui règle puis peut demander le remboursement à son OPCO (la subrogation n'est plus la règle). BAME PRÉVENTION ne propose pas de financement CPF.</p>
+        <div class="divider" style="margin:24px 0;"></div>
         <p class="muted" style="font-size:.88rem;">Une question sur cette formation ?</p>
         <a class="btn btn-primary" style="width:100%;justify-content:center;" href="/contact.html">Demander un devis</a>
       </div>
@@ -556,7 +558,9 @@ SECOURS_BODY = f"""
       <div><h3 style="margin-bottom:4px;">100 % de satisfaction</h3><p class="muted mb-0">Une formation réalisée à ce jour par mon organisme en direct en 2025.</p></div>
     </div>
 
-    <div class="text-center" style="margin-top:32px;">
+    <p class="muted text-center" style="font-size:.78rem;max-width:600px;margin:24px auto 0;"><strong>Financement :</strong> formation facturée à l'entreprise, qui règle puis peut demander le remboursement à son OPCO (la subrogation n'est plus la règle). BAME PRÉVENTION ne propose pas de financement CPF.</p>
+
+    <div class="text-center" style="margin-top:20px;">
       <a class="btn btn-primary" href="/contact.html">Demander un devis</a>
     </div>
   </div>
@@ -576,14 +580,14 @@ SECOURS_BODY = f"""
         <h3 style="margin-bottom:2px;">Les bonnes pratiques pour secourir une victime</h3>
         <p style="font-style:italic;color:var(--ink-soft);font-size:.9rem;margin-bottom:10px;">Sensibilisation — 3h30</p>
         <p class="muted" style="font-size:.9rem;">Les numéros d'urgence, les 3 étapes vitales et les bonnes pratiques au travail.</p>
-        <a class="pill-link" href="/assets/documents/Plaquette_Secourir_3h30.pdf" target="_blank" rel="noopener">{ICONS['book']}Télécharger</a>
+        <a class="pill-link" href="/assets/documents/Memo_Secourir_Sensibilisation.pdf" target="_blank" rel="noopener">{ICONS['book']}Télécharger</a>
       </div>
       <div class="card text-center" style="border-top:4px solid var(--orange-dark);">
         <div style="font-size:1.6rem;margin-bottom:10px;">❤️</div>
         <h3 style="margin-bottom:2px;">Les bonnes pratiques pour secourir une victime</h3>
         <p style="font-style:italic;color:var(--ink-soft);font-size:.9rem;margin-bottom:10px;">Initiation — 7h</p>
         <p class="muted" style="font-size:.9rem;">Arrêt cardiaque, défibrillateur, PLS, étouffement, hémorragie — l'essentiel pour agir.</p>
-        <a class="pill-link" href="/assets/documents/Plaquette_Secourir_7h.pdf" target="_blank" rel="noopener">{ICONS['book']}Télécharger</a>
+        <a class="pill-link" href="/assets/documents/Memo_Secourir_Initiation.pdf" target="_blank" rel="noopener">{ICONS['book']}Télécharger</a>
       </div>
     </div>
     <div class="card text-center" style="max-width:360px;margin:24px auto 0;border-top:4px solid var(--orange-dark);">
@@ -591,7 +595,7 @@ SECOURS_BODY = f"""
       <h3 style="margin-bottom:2px;">MAC SST</h3>
       <p style="font-style:italic;color:var(--ink-soft);font-size:.9rem;margin-bottom:10px;">Dispositif INRS — 7h</p>
       <p class="muted" style="font-size:.9rem;">Rappel des compétences SST, méthode P-E-F-A-S, rôle d'acteur de prévention.</p>
-      <a class="pill-link" href="/assets/documents/Plaquette_MAC_SST.pdf" target="_blank" rel="noopener">{ICONS['book']}Télécharger</a>
+      <a class="pill-link" href="/assets/documents/Memo_MAC_SST.pdf" target="_blank" rel="noopener">{ICONS['book']}Télécharger</a>
     </div>
     <div class="card" style="max-width:780px;margin:32px auto 0;">
       <h3 style="margin-bottom:14px;">💡 Comment utiliser ces aide-mémoires ?</h3>
@@ -634,6 +638,8 @@ GESTES_POSTURES_BODY = f"""
               ("/assets/documents/Livret_Accueil_Stagiaire.pdf", "LIVRET D'ACCUEIL STAGIAIRE"),
           ])}
         </div>
+        <div class="divider" style="margin:24px 0;"></div>
+        <p class="muted" style="font-size:.78rem;"><strong>Financement :</strong> formation facturée à l'entreprise, qui règle puis peut demander le remboursement à son OPCO (la subrogation n'est plus la règle). BAME PRÉVENTION ne propose pas de financement CPF.</p>
         <div class="divider" style="margin:24px 0;"></div>
         <a class="btn btn-primary" style="width:100%;justify-content:center;" href="/contact.html">Demander un devis</a>
       </div>
@@ -975,7 +981,7 @@ CGV_FORMATION_BODY = """
 
     <h2>Article 6 — Modalités de paiement</h2>
     <p>Le règlement s'effectue à réception de la facture, par virement bancaire ou par chèque, dans un délai maximum de 30 jours.</p>
-    <p>En cas de financement par un OPCO ou tout autre organisme tiers, le client s'engage à fournir l'accord de prise en charge avant le début de la formation. À défaut, la facture sera adressée directement au client.</p>
+    <p><strong>Financement :</strong> les OPCO ne pratiquant plus la subrogation, il n'y a plus de paiement direct aux organismes de formation. Par conséquent, les règlements se font directement auprès de BAME PRÉVENTION ; il appartient au client de se rapprocher de son OPCO pour la prise en charge de tout ou partie de sa formation. BAME PRÉVENTION ne propose pas de financement par le CPF.</p>
     <p>Pénalités de retard : en cas de retard de paiement, des pénalités égales à trois fois le taux d'intérêt légal seront appliquées de plein droit, ainsi qu'une indemnité forfaitaire de 40 € pour frais de recouvrement (article L.441-10 du Code de commerce).</p>
 
     <h2>Article 7 — Annulation, report et rétractation</h2>
