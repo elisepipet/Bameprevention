@@ -256,6 +256,7 @@ p{ margin:0 0 1em; }
 .training-card__top .duration{ font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; opacity:.85; }
 .training-card__body{ padding:22px 26px 26px; flex:1; display:flex; flex-direction:column; }
 .training-card__body p{ color:var(--ink-soft); font-size:.95rem; }
+.training-card__body > .btn-outline.btn-sm{ margin-top:auto; align-self:flex-start; }
 .training-card__links{ display:flex; flex-wrap:wrap; gap:8px; margin-top:auto; padding-top:14px; }
 .pill-link{
   font-size:.8rem; font-weight:600; padding:7px 13px; border-radius:999px; background:var(--success-bg); color:var(--teal-dark);

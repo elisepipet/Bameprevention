@@ -8,7 +8,13 @@
     var ticking = false;
     var applyScrollState = function () {
       var y = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-      header.classList.toggle("is-scrolled", y > 24);
+      // Hystérésis pour éviter le clignotement du logo pendant le
+      // rebond élastique (rubber-band) en haut de page sur trackpad/mobile.
+      if (y > 60) {
+        header.classList.add("is-scrolled");
+      } else if (y < 10) {
+        header.classList.remove("is-scrolled");
+      }
       ticking = false;
     };
     applyScrollState();
