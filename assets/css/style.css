@@ -34,6 +34,14 @@
 
 *,*::before,*::after{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
+html{
+  /* Empêche le "scroll anchoring" du navigateur de compenser le
+     changement de hauteur du header sticky au scroll : sans ça, le
+     recalage de position créait une boucle (le header rétrécit, le
+     scroll est ajusté, ce qui annule le rétrécissement, etc.) qui
+     donnait un effet de tremblement/clignotement du header. */
+  overflow-anchor:none;
+}
 body{
   margin:0;
   font-family:var(--font-body);
