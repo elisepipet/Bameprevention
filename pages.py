@@ -126,21 +126,19 @@ INDEX_BODY = f"""
       <h2>Des ateliers personnalisés, construits avec vous</h2>
       <p class="lede center">Au-delà des formations certifiantes, Laure conçoit des ateliers de sensibilisation ciblés selon les besoins réels de votre équipe — un format court, concret, adapté à votre secteur.</p>
     </div>
-    <div class="grid grid-2">
-      <div class="card">
-        <div class="icon">{ICONS['heart']}</div>
-        <h3>Malaise &amp; nutrition</h3>
-        <p class="muted">Déjà animé en entreprise : reconnaître les signes d'un malaise, les bons réflexes, et les bases d'une alimentation qui soutient l'énergie au travail.</p>
-      </div>
-      <div class="card">
-        <div class="icon">{ICONS['shield']}</div>
-        <h3>Utilisation du défibrillateur</h3>
-        <p class="muted">Un atelier pratique pour démystifier le DAE et gagner en confiance face à un arrêt cardiaque, en complément de la formation gestes qui sauvent.</p>
-      </div>
-    </div>
     <details class="reveal-more">
       <summary>En savoir plus sur nos ateliers <span class="chevron">{ICONS['chevron-down']}</span></summary>
-      <div class="grid grid-2">
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon">{ICONS['heart']}</div>
+          <h3>Malaise &amp; nutrition</h3>
+          <p class="muted">Déjà animé en entreprise : reconnaître les signes d'un malaise, les bons réflexes, et les bases d'une alimentation qui soutient l'énergie au travail.</p>
+        </div>
+        <div class="card">
+          <div class="icon">{ICONS['shield']}</div>
+          <h3>Utilisation du défibrillateur</h3>
+          <p class="muted">Un atelier pratique pour démystifier le DAE et gagner en confiance face à un arrêt cardiaque, en complément de la formation gestes qui sauvent.</p>
+        </div>
         <div class="card">
           <div class="icon">{ICONS['target']}</div>
           <h3>Ergonomie &amp; télétravail</h3>
