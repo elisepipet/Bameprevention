@@ -69,25 +69,23 @@ INDEX_BODY = f"""
       <h2>Des formations sur mesure, ancrées dans vos risques réels</h2>
       <p class="lede center">Délai d'accès aux formations : 2 à 4 semaines. Accessibilité sur demande pour la réalisation d'un plan d'action.</p>
     </div>
-    <div class="grid grid-2" style="margin-top:40px;max-width:760px;margin-left:auto;margin-right:auto;">
-      <div class="training-card">
-        <div class="training-card__top"><h3 style="color:#fff;margin:0;">SST Initial</h3><div class="duration" style="margin-top:4px;">14h — 2 jours</div></div>
-        <div class="training-card__body">
-          <p>Sauveteur Secouriste du Travail. Protéger, examiner, faire alerter ou alerter, secourir — une formation complète pour réagir efficacement face à un accident.</p>
-          <a class="btn btn-outline btn-sm" href="/sst.html">Découvrir la formation</a>
-        </div>
-      </div>
-      <div class="training-card">
-        <div class="training-card__top"><h3 style="color:#fff;margin:0;">MAC SST</h3><div class="duration" style="margin-top:4px;">7h</div></div>
-        <div class="training-card__body">
-          <p>Maintien et actualisation des compétences SST. Démontrez que rien n'a été oublié de votre formation initiale.</p>
-          <a class="btn btn-outline btn-sm" href="/mac-sst.html">Découvrir la formation</a>
-        </div>
-      </div>
-    </div>
-    <details class="reveal-more">
+    <details class="reveal-more" style="margin-top:40px;">
       <summary>En savoir plus sur nos formations <span class="chevron">{ICONS['chevron-down']}</span></summary>
-      <div class="grid grid-2" style="max-width:760px;margin:0 auto;">
+      <div class="grid grid-3">
+        <div class="training-card">
+          <div class="training-card__top"><h3 style="color:#fff;margin:0;">SST Initial</h3><div class="duration" style="margin-top:4px;">14h — 2 jours</div></div>
+          <div class="training-card__body">
+            <p>Sauveteur Secouriste du Travail. Protéger, examiner, faire alerter ou alerter, secourir — une formation complète pour réagir efficacement face à un accident.</p>
+            <a class="btn btn-outline btn-sm" href="/sst.html">Découvrir la formation</a>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="training-card__top"><h3 style="color:#fff;margin:0;">MAC SST</h3><div class="duration" style="margin-top:4px;">7h</div></div>
+          <div class="training-card__body">
+            <p>Maintien et actualisation des compétences SST. Démontrez que rien n'a été oublié de votre formation initiale.</p>
+            <a class="btn btn-outline btn-sm" href="/mac-sst.html">Découvrir la formation</a>
+          </div>
+        </div>
         <div class="training-card">
           <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes qui sauvent</h3><div class="duration" style="margin-top:4px;">3h30 à 7h</div></div>
           <div class="training-card__body">
