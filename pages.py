@@ -69,7 +69,7 @@ INDEX_BODY = f"""
       <h2>Des formations sur mesure, ancrées dans vos risques réels</h2>
       <p class="lede center">Délai d'accès aux formations : 2 à 4 semaines. Accessibilité sur demande pour la réalisation d'un plan d'action.</p>
     </div>
-    <div class="grid grid-3" style="margin-top:40px;">
+    <div class="grid grid-2" style="margin-top:40px;max-width:760px;margin-left:auto;margin-right:auto;">
       <div class="training-card">
         <div class="training-card__top"><h3 style="color:#fff;margin:0;">SST Initial</h3><div class="duration" style="margin-top:4px;">14h — 2 jours</div></div>
         <div class="training-card__body">
@@ -84,35 +84,40 @@ INDEX_BODY = f"""
           <a class="btn btn-outline btn-sm" href="/mac-sst.html">Découvrir la formation</a>
         </div>
       </div>
-      <div class="training-card">
-        <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes qui sauvent</h3><div class="duration" style="margin-top:4px;">3h30 à 7h</div></div>
-        <div class="training-card__body">
-          <p>Les bonnes pratiques de secours, en initiation ou en sensibilisation — essentielles au quotidien, pour tous.</p>
-          <a class="btn btn-outline btn-sm" href="/secours.html">Découvrir la formation</a>
-        </div>
-      </div>
-      <div class="training-card">
-        <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes &amp; Postures</h3><div class="duration" style="margin-top:4px;">7h</div></div>
-        <div class="training-card__body">
-          <p>Prévention des TMS. Les bons gestes pour se protéger des maladies professionnelles, dans tous les secteurs d'activité.</p>
-          <a class="btn btn-outline btn-sm" href="/gestes-et-postures.html">Découvrir la formation</a>
-        </div>
-      </div>
-      <div class="training-card">
-        <div class="training-card__top"><h3 style="color:#fff;margin:0;">DUERP</h3><div class="duration" style="margin-top:4px;">Conseil</div></div>
-        <div class="training-card__body">
-          <p>Document Unique d'Évaluation des Risques Professionnels. Un accompagnement pour évaluer et consigner les risques de votre entreprise.</p>
-          <a class="btn btn-outline btn-sm" href="/duerp.html">Découvrir la prestation</a>
-        </div>
-      </div>
-      <div class="training-card" style="background:linear-gradient(135deg,var(--orange),var(--orange-dark));">
-        <div class="training-card__body" style="justify-content:center;color:#fff;">
-          <h3 style="color:#fff;">Un besoin spécifique ?</h3>
-          <p style="color:rgba(255,255,255,.9);">Chaque entreprise a ses propres risques. Parlons de votre contexte pour construire la formation la plus adaptée.</p>
-          <a class="btn" style="background:#fff;color:var(--orange-dark);" href="/contact.html">Échanger avec Laure</a>
-        </div>
-      </div>
     </div>
+    <details class="reveal-more">
+      <summary>En savoir plus sur nos formations <span class="chevron">{ICONS['chevron-down']}</span></summary>
+      <div class="grid grid-2" style="max-width:760px;margin:0 auto;">
+        <div class="training-card">
+          <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes qui sauvent</h3><div class="duration" style="margin-top:4px;">3h30 à 7h</div></div>
+          <div class="training-card__body">
+            <p>Les bonnes pratiques de secours, en initiation ou en sensibilisation — essentielles au quotidien, pour tous.</p>
+            <a class="btn btn-outline btn-sm" href="/secours.html">Découvrir la formation</a>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="training-card__top"><h3 style="color:#fff;margin:0;">Gestes &amp; Postures</h3><div class="duration" style="margin-top:4px;">7h</div></div>
+          <div class="training-card__body">
+            <p>Prévention des TMS. Les bons gestes pour se protéger des maladies professionnelles, dans tous les secteurs d'activité.</p>
+            <a class="btn btn-outline btn-sm" href="/gestes-et-postures.html">Découvrir la formation</a>
+          </div>
+        </div>
+        <div class="training-card">
+          <div class="training-card__top"><h3 style="color:#fff;margin:0;">DUERP</h3><div class="duration" style="margin-top:4px;">Conseil</div></div>
+          <div class="training-card__body">
+            <p>Document Unique d'Évaluation des Risques Professionnels. Un accompagnement pour évaluer et consigner les risques de votre entreprise.</p>
+            <a class="btn btn-outline btn-sm" href="/duerp.html">Découvrir la prestation</a>
+          </div>
+        </div>
+        <div class="training-card" style="background:linear-gradient(135deg,var(--orange),var(--orange-dark));">
+          <div class="training-card__body" style="justify-content:center;color:#fff;">
+            <h3 style="color:#fff;">Un besoin spécifique ?</h3>
+            <p style="color:rgba(255,255,255,.9);">Chaque entreprise a ses propres risques. Parlons de votre contexte pour construire la formation la plus adaptée.</p>
+            <a class="btn" style="background:#fff;color:var(--orange-dark);" href="/contact.html">Échanger avec Laure</a>
+          </div>
+        </div>
+      </div>
+    </details>
   </div>
 </section>
 
