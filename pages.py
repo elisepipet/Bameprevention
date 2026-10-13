@@ -237,14 +237,23 @@ INDEX_BODY = f"""
       <img src="/assets/images/partner-sethi-communication.png" alt="Sethi Communication" loading="lazy">
       <img src="/assets/images/partner-jardins-de-jo.jpg" alt="Les Jardins de Jo" loading="lazy">
     </div>
-    <div class="partners" style="gap:48px;margin-top:32px;padding-top:32px;border-top:1px solid var(--line);">
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <div class="center" style="max-width:640px;margin-bottom:32px;">
+      <span class="eyebrow">Nos certifications</span>
+      <h2>Des références reconnues par la profession</h2>
+    </div>
+    <div class="partners" style="gap:48px;">
       <img src="/assets/images/logo-sst.png" alt="Sauveteur Secouriste du Travail" style="max-height:64px;filter:none;" loading="lazy">
       <img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .85);height:auto;max-height:none;max-width:55vw;filter:none;" loading="lazy">
     </div>
   </div>
 </section>
 
-<section class="section section--alt">
+<section class="section">
   <div class="container">
     <div class="center" style="max-width:640px;margin-bottom:40px;">
       <span class="eyebrow">Nos partenaires</span>
