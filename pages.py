@@ -136,7 +136,7 @@ INDEX_BODY = f"""
       </div>
     </div>
     <details class="reveal-more">
-      <summary>Voir les 3 autres ateliers <span class="chevron">{ICONS['chevron-down']}</span></summary>
+      <summary>En savoir plus sur nos ateliers <span class="chevron">{ICONS['chevron-down']}</span></summary>
       <div class="grid grid-2">
         <div class="card">
           <div class="icon">{ICONS['target']}</div>
@@ -169,24 +169,28 @@ INDEX_BODY = f"""
       <div>
         <span class="eyebrow">Notre engagement</span>
         <h2>Ensemble pour l'avenir</h2>
-        <p class="lede">La prévention des risques passe avant tout par la formation. En donnant aux salariés les clés pour identifier et gérer les dangers, les entreprises renforcent la sécurité au quotidien. Intégrer ces enjeux dans la formation continue, c'est protéger les équipes tout en améliorant la performance et le climat de travail.</p>
-        <span class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);margin-bottom:16px;">{ICONS['award']} Habilitation P123</span>
+        <p class="lede">La prévention des risques passe avant tout par la formation, pour protéger les équipes tout en améliorant la performance et le climat de travail.</p>
         <a class="btn btn-outline" href="/philosophie.html">Notre philosophie</a>
       </div>
-      <div class="grid" style="gap:18px;">
-        <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
-          <div class="icon" style="margin:0;">{ICONS['target']}</div>
-          <div><h3 style="margin-bottom:4px;">Conseil personnalisé</h3><p class="muted mb-0">Un accompagnement sur mesure selon vos besoins spécifiques.</p></div>
+      <details class="reveal-more" style="margin-top:0;">
+        <summary>En savoir plus sur notre engagement <span class="chevron">{ICONS['chevron-down']}</span></summary>
+        <div class="grid" style="gap:18px;">
+          <p class="lede" style="margin-bottom:4px;">En donnant aux salariés les clés pour identifier et gérer les dangers, les entreprises renforcent la sécurité au quotidien. Intégrer ces enjeux dans la formation continue, c'est protéger les équipes tout en améliorant la performance et le climat de travail.</p>
+          <span class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);">{ICONS['award']} Habilitation P123</span>
+          <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
+            <div class="icon" style="margin:0;">{ICONS['target']}</div>
+            <div><h3 style="margin-bottom:4px;">Conseil personnalisé</h3><p class="muted mb-0">Un accompagnement sur mesure selon vos besoins spécifiques.</p></div>
+          </div>
+          <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
+            <div class="icon" style="margin:0;">{ICONS['users']}</div>
+            <div><h3 style="margin-bottom:4px;">Formation professionnelle</h3><p class="muted mb-0">Des formations adaptées pour sensibiliser et former vos équipes.</p></div>
+          </div>
+          <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
+            <div class="icon" style="margin:0;">{ICONS['shield']}</div>
+            <div><h3 style="margin-bottom:4px;">Outils innovants</h3><p class="muted mb-0">Des solutions modernes pour une prévention efficace et durable.</p></div>
+          </div>
         </div>
-        <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
-          <div class="icon" style="margin:0;">{ICONS['users']}</div>
-          <div><h3 style="margin-bottom:4px;">Formation professionnelle</h3><p class="muted mb-0">Des formations adaptées pour sensibiliser et former vos équipes.</p></div>
-        </div>
-        <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
-          <div class="icon" style="margin:0;">{ICONS['shield']}</div>
-          <div><h3 style="margin-bottom:4px;">Outils innovants</h3><p class="muted mb-0">Des solutions modernes pour une prévention efficace et durable.</p></div>
-        </div>
-      </div>
+      </details>
     </div>
   </div>
 </section>
@@ -246,20 +250,23 @@ INDEX_BODY = f"""
       <h2>Nos entreprises partenaires</h2>
       <p class="lede center">Des fournisseurs et réseaux recommandés, pour une prévention toujours plus complète.</p>
     </div>
-    <div class="grid grid-2" style="max-width:760px;margin:0 auto;">
-      <div class="card text-center" style="padding:0;overflow:hidden;">
-        <img src="/assets/images/product-lifeaz.jpg" alt="Défibrillateur Lifeaz" style="width:100%;">
-        <div style="padding:22px;">
-          <img src="/assets/images/qr-commander-lifeaz.png" alt="Lifeaz — QR code pour commander votre défibrillateur, code promo FPLPIPET" style="max-width:200px;margin:0 auto;">
+    <details class="reveal-more">
+      <summary>En savoir plus sur nos partenaires équipement <span class="chevron">{ICONS['chevron-down']}</span></summary>
+      <div class="grid grid-2" style="max-width:760px;margin:0 auto;">
+        <div class="card text-center" style="padding:0;overflow:hidden;">
+          <img src="/assets/images/product-lifeaz.jpg" alt="Défibrillateur Lifeaz" style="width:100%;">
+          <div style="padding:22px;">
+            <img src="/assets/images/qr-commander-lifeaz.png" alt="Lifeaz — QR code pour commander votre défibrillateur, code promo FPLPIPET" style="max-width:200px;margin:0 auto;">
+          </div>
+        </div>
+        <div class="card text-center" style="padding:0;overflow:hidden;">
+          <img src="/assets/images/badge-cardio-first-angel.png" alt="Dispositif Cardio First Angel" style="width:100%;background:#fff;">
+          <div style="padding:22px;">
+            <img src="/assets/images/qr-devis.png" alt="Cardio First Angel — QR code pour recevoir votre devis" style="max-width:200px;margin:0 auto;">
+          </div>
         </div>
       </div>
-      <div class="card text-center" style="padding:0;overflow:hidden;">
-        <img src="/assets/images/badge-cardio-first-angel.png" alt="Dispositif Cardio First Angel" style="width:100%;background:#fff;">
-        <div style="padding:22px;">
-          <img src="/assets/images/qr-devis.png" alt="Cardio First Angel — QR code pour recevoir votre devis" style="max-width:200px;margin:0 auto;">
-        </div>
-      </div>
-    </div>
+    </details>
   </div>
 </section>
 
