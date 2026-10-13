@@ -243,6 +243,20 @@ p{ margin:0 0 1em; }
 .grid-2{ grid-template-columns:repeat(2,1fr); }
 @media (max-width:860px){ .grid-3,.grid-2{ grid-template-columns:1fr; } }
 
+/* ---------- Détails repliables (progressive disclosure) ---------- */
+.reveal-more{ margin-top:26px; }
+.reveal-more > summary{
+  list-style:none; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px;
+  font-weight:700; color:var(--teal-dark); background:var(--success-bg); border:1px solid var(--line);
+  border-radius:999px; padding:12px 22px; font-size:.92rem; max-width:320px; margin:0 auto;
+  transition:background .15s ease;
+}
+.reveal-more > summary::-webkit-details-marker{ display:none; }
+.reveal-more > summary:hover{ background:#dcf0e8; }
+.reveal-more > summary .chevron{ transition:transform .2s ease; display:flex; }
+.reveal-more[open] > summary .chevron{ transform:rotate(180deg); }
+.reveal-more[open] > summary{ margin-bottom:26px; }
+
 .card{
   background:var(--paper); border-radius:var(--radius-md); padding:30px; box-shadow:var(--shadow-sm);
   border:1px solid var(--line); transition:transform .15s ease, box-shadow .15s ease;
