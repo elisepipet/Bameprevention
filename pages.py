@@ -241,7 +241,7 @@ INDEX_BODY = f"""
       <img src="/assets/images/partner-haras-bouttemont.png" alt="Haras de Bouttemont" loading="lazy">
       <img src="/assets/images/partner-hp-elec.png" alt="HP Elec — Groupe Synelis" loading="lazy">
       <img src="/assets/images/partner-sethi-communication.png" alt="Sethi Communication" loading="lazy">
-      <img src="/assets/images/partner-jardins-de-jo.jpg" alt="Les Jardins de Jo" loading="lazy">
+      <a href="https://www.lesjardinsdejo34.fr/" target="_blank" rel="noopener"><img src="/assets/images/partner-jardins-de-jo.jpg" alt="Les Jardins de Jo" loading="lazy"></a>
     </div>
   </div>
 </section>
