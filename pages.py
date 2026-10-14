@@ -48,7 +48,7 @@ INDEX_BODY = f"""
         <a class="btn btn-ghost" href="#formations">Voir les formations</a>
       </div>
       <div class="hero-badges">
-        <span class="hero-badge"><span class="badge-ico">{ICONS['award']}</span>SST certifiée INRS</span>
+        <span class="hero-badge"><span class="badge-ico">{ICONS['award']}</span>Organisme habilité SST</span>
         <span class="hero-badge"><span class="badge-ico">{ICONS['clock']}</span>Disponibilité 2 à 4 semaines</span>
         <span class="hero-badge"><span class="badge-ico">{ICONS['users']}</span>Référente handicap</span>
       </div>
