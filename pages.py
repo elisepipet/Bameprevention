@@ -253,12 +253,16 @@ INDEX_BODY = f"""
       <h2>Des références reconnues par la profession</h2>
     </div>
     <div class="partners" style="gap:48px;align-items:flex-start;">
-      <div class="text-center">
-        <a href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-sst.png" alt="Sauveteur Secouriste du Travail" style="max-height:110px;filter:none;" loading="lazy"></a>
-        <p class="muted" style="font-size:.8rem;margin-top:8px;">Habilitation SST<br>(et non une certification)</p>
+      <div class="text-center" style="display:flex;flex-direction:column;align-items:center;">
+        <div style="height:110px;display:flex;align-items:center;">
+          <a href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-sst.png" alt="Sauveteur Secouriste du Travail" style="max-height:110px;filter:none;" loading="lazy"></a>
+        </div>
+        <p class="muted" style="font-size:.8rem;margin-top:8px;">Habilitation SST</p>
       </div>
-      <div class="text-center">
-        <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .6);height:auto;max-height:none;max-width:40vw;filter:none;" loading="lazy"></a>
+      <div class="text-center" style="display:flex;flex-direction:column;align-items:center;">
+        <div style="height:110px;display:flex;align-items:center;">
+          <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .6);height:auto;max-height:none;max-width:40vw;filter:none;" loading="lazy"></a>
+        </div>
         <p class="muted" style="font-size:.8rem;margin-top:8px;">Certification qualité Qualiopi</p>
       </div>
     </div>
