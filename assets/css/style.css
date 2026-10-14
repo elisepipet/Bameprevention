@@ -180,7 +180,7 @@ p{ margin:0 0 1em; }
 /* ---------- Hero ---------- */
 .hero{
   position:relative; overflow:hidden;
-  background:#0d231c;
+  background:#1c4738;
   color:#fff; padding:80px 0 100px;
 }
 .hero-bg-logo{
@@ -189,7 +189,7 @@ p{ margin:0 0 1em; }
 }
 .hero-bg-overlay{
   position:absolute; inset:0; z-index:0;
-  background:linear-gradient(135deg,rgba(13,35,28,.82),rgba(14,43,36,.68) 55%,rgba(20,99,84,.55));
+  background:linear-gradient(135deg,rgba(18,46,37,.62),rgba(19,55,46,.48) 55%,rgba(27,125,105,.38));
 }
 .hero::after{
   content:''; position:absolute; right:-120px; top:-120px; width:420px; height:420px; border-radius:50%;
