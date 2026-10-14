@@ -188,10 +188,7 @@ FOOTER = f"""<footer class="site-footer">
 
 
 WATERMARK_IMG = '<img class="hero-watermark" src="/assets/images/watermark-seal.png" alt="" aria-hidden="true">'
-HERO_BG = (
-    '<img class="hero-bg-logo" src="/assets/images/logo-bame-transparent.png" alt="" aria-hidden="true">'
-    '<div class="hero-bg-overlay"></div>'
-)
+HERO_BG = ""
 
 
 def inject_watermark(body):
