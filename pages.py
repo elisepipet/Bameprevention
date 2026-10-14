@@ -685,7 +685,7 @@ DUERP_BODY = f"""
   </div>
 </section>
 
-<section class="section">
+<section class="section" style="padding-bottom:110px;">
   <div class="container">
     <div class="grid grid-2" style="gap:40px;align-items:center;">
       <div>
