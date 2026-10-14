@@ -692,8 +692,10 @@ DUERP_BODY = f"""
         <h2>Un accompagnement méthodologique complet</h2>
         <p class="muted">BAME PRÉVENTION vous accompagne dans l'élaboration et la mise à jour de votre Document Unique : identification des unités de travail, évaluation et cotation des risques (y compris psychosociaux), et construction du plan d'actions de prévention annuel.</p>
         <p class="muted">Pour en savoir plus sur le cadre légal du DUERP, consultez la page officielle du ministère du Travail : <a href="https://travail-emploi.gouv.fr/le-document-unique-devaluation-des-risques-professionnels-duerp" target="_blank" rel="noopener" style="color:var(--teal-dark);font-weight:600;">travail-emploi.gouv.fr</a>.</p>
-        <a class="btn btn-primary" href="/contact.html">Demander un accompagnement DUERP</a>
-        <a class="btn btn-outline" style="margin-left:10px;" href="/cgv-duerp.html">Voir les CGV DUERP</a>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;">
+          <a class="btn btn-primary" href="/contact.html">Demander un accompagnement DUERP</a>
+          <a class="btn btn-outline" href="/cgv-duerp.html">Voir les CGV DUERP</a>
+        </div>
       </div>
       <div class="card">
         <div class="icon">{ICONS['scale']}</div>
