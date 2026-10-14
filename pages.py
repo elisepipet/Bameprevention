@@ -40,7 +40,7 @@ INDEX_BODY = f"""
 <section class="hero">
   <div class="container">
     <div>
-      <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff;">Organisme de formation certifié INRS</span>
+      <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff;">Organisme de formation habilité SST</span>
       <h1>Anticipez les risques avec BAME PRÉVENTION</h1>
       <p class="lede">Chez BAME PRÉVENTION, la prévention est au cœur de chaque action. Un accompagnement sur mesure pour anticiper les risques, préserver le bien-être et agir de manière responsable — avant que les situations ne deviennent critiques.</p>
       <div class="hero-actions">
@@ -249,12 +249,18 @@ INDEX_BODY = f"""
 <section class="section section--alt">
   <div class="container">
     <div class="center" style="max-width:640px;margin-bottom:32px;">
-      <span class="eyebrow">Nos certifications</span>
+      <span class="eyebrow">Habilitation &amp; certification</span>
       <h2>Des références reconnues par la profession</h2>
     </div>
-    <div class="partners" style="gap:48px;">
-      <a href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-sst.png" alt="Sauveteur Secouriste du Travail" style="max-height:64px;filter:none;" loading="lazy"></a>
-      <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .85);height:auto;max-height:none;max-width:55vw;filter:none;" loading="lazy"></a>
+    <div class="partners" style="gap:48px;align-items:flex-start;">
+      <div class="text-center">
+        <a href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-sst.png" alt="Sauveteur Secouriste du Travail" style="max-height:110px;filter:none;" loading="lazy"></a>
+        <p class="muted" style="font-size:.8rem;margin-top:8px;">Habilitation SST<br>(et non une certification)</p>
+      </div>
+      <div class="text-center">
+        <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .6);height:auto;max-height:none;max-width:40vw;filter:none;" loading="lazy"></a>
+        <p class="muted" style="font-size:.8rem;margin-top:8px;">Certification qualité Qualiopi</p>
+      </div>
     </div>
   </div>
 </section>
@@ -324,7 +330,7 @@ A_PROPOS_BODY = f"""
     <div class="breadcrumb"><a href="/index.html">Accueil</a> / À propos</div>
     <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff;">Qui est BAME PRÉVENTION ?</span>
     <h1>L'engagement d'une professionnelle indépendante au service de votre sécurité</h1>
-    <p class="lede">Fondée par Laure PIPET, issue du milieu paramédical et formatrice SST/PRAP certifiée INRS, BAME PRÉVENTION accompagne les entreprises dans une démarche globale de prévention.</p>
+    <p class="lede">Fondée par Laure PIPET, issue du milieu paramédical et formatrice SST/PRAP habilitée INRS, BAME PRÉVENTION accompagne les entreprises dans une démarche globale de prévention.</p>
   </div>
 </section>
 
@@ -350,8 +356,8 @@ A_PROPOS_BODY = f"""
     <div class="grid grid-3">
       <div class="card">
         <div class="icon">{ICONS['award']}</div>
-        <h3>Formatrice certifiée INRS</h3>
-        <p class="muted">Certification SST et PRAP reconnue, pour des formations conformes aux exigences réglementaires et pédagogiques.</p>
+        <h3>Formatrice habilitée INRS</h3>
+        <p class="muted">Habilitation SST et PRAP reconnue, pour des formations conformes aux exigences réglementaires et pédagogiques.</p>
       </div>
       <div class="card">
         <div class="icon">{ICONS['heart']}</div>
@@ -1142,9 +1148,9 @@ CGV_DUERP_BODY = """
 
 PAGES = {
     "index": ("Accueil — BAME PRÉVENTION", "Organisme de formation en santé-sécurité au travail : SST, MAC SST, gestes qui sauvent, gestes et postures, DUERP. Prévenir aujourd'hui pour mieux vivre demain.", INDEX_BODY),
-    "a-propos": ("À propos — BAME PRÉVENTION", "Laure PIPET, formatrice SST/PRAP certifiée INRS, fondatrice de BAME PRÉVENTION. Une démarche de prévention humaine, concrète et durable.", A_PROPOS_BODY),
+    "a-propos": ("À propos — BAME PRÉVENTION", "Laure PIPET, formatrice SST/PRAP habilitée INRS, fondatrice de BAME PRÉVENTION. Une démarche de prévention humaine, concrète et durable.", A_PROPOS_BODY),
     "philosophie": ("Notre philosophie — BAME PRÉVENTION", "Qualité, accessibilité, efficacité et prix équitables : les engagements de BAME PRÉVENTION pour une prévention durable.", PHILOSOPHIE_BODY),
-    "sst": ("Formation SST — Sauveteur Secouriste du Travail", "Formation SST Initial, 14h sur 2 jours, par une formatrice certifiée INRS. Obligatoire dans les ateliers à travaux dangereux (article R.4224-15).", SST_BODY),
+    "sst": ("Formation SST — Sauveteur Secouriste du Travail", "Formation SST Initial, 14h sur 2 jours, par une formatrice habilitée INRS. Obligatoire dans les ateliers à travaux dangereux (article R.4224-15).", SST_BODY),
     "mac-sst": ("Formation MAC SST — Maintien des compétences", "Recyclage SST (MAC SST), 7h, pour actualiser vos compétences de sauveteur secouriste du travail.", MAC_SST_BODY),
     "secours": ("Les gestes qui sauvent — Bonnes pratiques de secours", "Formations citoyen sauveteur, de 3h30 à 7h : les bonnes pratiques pour secourir une victime au quotidien.", SECOURS_BODY),
     "gestes-et-postures": ("Formation Gestes et Postures — Prévention des TMS", "Formation Gestes et Postures, 7h, pour prévenir les troubles musculosquelettiques dans tous les secteurs d'activité.", GESTES_POSTURES_BODY),
