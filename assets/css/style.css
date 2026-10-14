@@ -185,11 +185,11 @@ p{ margin:0 0 1em; }
 }
 .hero-bg-logo{
   position:absolute; inset:-15%; width:130%; height:130%; object-fit:cover; object-position:center;
-  filter:blur(38px) saturate(1.4); z-index:0; pointer-events:none;
+  filter:blur(38px) saturate(.35); z-index:0; pointer-events:none;
 }
 .hero-bg-overlay{
   position:absolute; inset:0; z-index:0;
-  background:linear-gradient(135deg,rgba(22,51,71,.42),rgba(31,69,88,.24) 50%,rgba(240,146,79,.16));
+  background:linear-gradient(135deg,rgba(22,51,71,.58),rgba(31,69,88,.4) 50%,rgba(240,146,79,.3));
 }
 .hero::after{
   content:''; position:absolute; right:-120px; top:-120px; width:420px; height:420px; border-radius:50%;
