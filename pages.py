@@ -69,9 +69,8 @@ INDEX_BODY = f"""
       <h2>Des formations sur mesure, ancrées dans vos risques réels</h2>
       <p class="lede center">Délai d'accès aux formations : 2 à 4 semaines. Accessibilité sur demande pour la réalisation d'un plan d'action.</p>
     </div>
-    <details class="reveal-more" style="margin-top:40px;">
-      <summary>En savoir plus sur nos formations <span class="chevron">{ICONS['chevron-down']}</span></summary>
-      <div class="grid grid-3">
+    <div class="carousel">
+      <div class="carousel-track">
         <div class="training-card">
           <div class="training-card__top"><h3 style="color:#fff;margin:0;">SST Initial</h3><div class="duration" style="margin-top:4px;">14h — 2 jours</div></div>
           <div class="training-card__body">
@@ -115,7 +114,11 @@ INDEX_BODY = f"""
           </div>
         </div>
       </div>
-    </details>
+      <div class="carousel-nav">
+        <button class="carousel-btn prev" type="button" aria-label="Formation précédente">{ICONS['chevron-down']}</button>
+        <button class="carousel-btn next" type="button" aria-label="Formation suivante">{ICONS['chevron-down']}</button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -126,9 +129,8 @@ INDEX_BODY = f"""
       <h2>Des ateliers personnalisés, construits avec vous</h2>
       <p class="lede center">Au-delà des formations certifiantes, Laure conçoit des ateliers de sensibilisation ciblés selon les besoins réels de votre équipe — un format court, concret, adapté à votre secteur.</p>
     </div>
-    <details class="reveal-more">
-      <summary>En savoir plus sur nos ateliers <span class="chevron">{ICONS['chevron-down']}</span></summary>
-      <div class="grid grid-3">
+    <div class="carousel" style="margin-top:0;">
+      <div class="carousel-track">
         <div class="card">
           <div class="icon">{ICONS['heart']}</div>
           <h3>Malaise &amp; nutrition</h3>
@@ -156,7 +158,11 @@ INDEX_BODY = f"""
           <p class="muted" style="font-size:.8rem;font-style:italic;margin-top:8px;">Laure se forme à cet atelier en décembre 2026 — disponible pour vos équipes dès cette date.</p>
         </div>
       </div>
-    </details>
+      <div class="carousel-nav">
+        <button class="carousel-btn prev" type="button" aria-label="Atelier précédent">{ICONS['chevron-down']}</button>
+        <button class="carousel-btn next" type="button" aria-label="Atelier suivant">{ICONS['chevron-down']}</button>
+      </div>
+    </div>
     <div class="text-center" style="margin-top:36px;">
       <p class="muted" style="font-size:.9rem;">Cette liste n'est pas exhaustive — chaque atelier est construit sur mesure selon vos enjeux.</p>
       <a class="btn btn-primary" href="/contact.html">Proposer un atelier à mon équipe</a>

@@ -257,6 +257,30 @@ p{ margin:0 0 1em; }
 .reveal-more[open] > summary .chevron{ transform:rotate(180deg); }
 .reveal-more[open] > summary{ margin-bottom:26px; }
 
+/* ---------- Carrousel (formations / ateliers) ---------- */
+.carousel{ margin-top:40px; }
+.carousel-track{
+  display:flex; gap:20px; overflow-x:auto; scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch; padding:4px 4px 10px; scrollbar-width:none;
+}
+.carousel-track::-webkit-scrollbar{ display:none; }
+.carousel-track > .training-card,
+.carousel-track > .card{ flex:0 0 280px; scroll-snap-align:start; }
+.carousel-nav{ display:flex; justify-content:center; gap:10px; margin-top:16px; }
+.carousel-btn{
+  width:42px; height:42px; border-radius:999px; border:1px solid var(--line);
+  background:var(--paper); display:flex; align-items:center; justify-content:center;
+  cursor:pointer; color:var(--navy); transition:background .15s ease;
+}
+.carousel-btn:hover{ background:var(--success-bg); }
+.carousel-btn svg{ width:18px; height:18px; }
+.carousel-btn.prev svg{ transform:rotate(90deg); }
+.carousel-btn.next svg{ transform:rotate(-90deg); }
+@media (max-width:640px){
+  .carousel-track > .training-card,
+  .carousel-track > .card{ flex-basis:82vw; }
+}
+
 .card{
   background:var(--paper); border-radius:var(--radius-md); padding:30px; box-shadow:var(--shadow-sm);
   border:1px solid var(--line); transition:transform .15s ease, box-shadow .15s ease;
@@ -316,8 +340,7 @@ p{ margin:0 0 1em; }
 
 /* Partner strip */
 .partners{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:36px; }
-.partners img{ max-height:46px; width:auto; filter:grayscale(1) opacity(.65); transition:filter .2s ease; }
-.partners img:hover{ filter:grayscale(0) opacity(1); }
+.partners img{ max-height:46px; width:auto; }
 
 /* Timeline (contact/process) */
 .timeline{ display:grid; gap:18px; }

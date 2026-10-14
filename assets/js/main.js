@@ -159,6 +159,21 @@
     });
   });
 
+  // --- Carrousel (formations / ateliers) ---
+  document.querySelectorAll(".carousel").forEach(function (carousel) {
+    var track = carousel.querySelector(".carousel-track");
+    if (!track) return;
+    function scrollByCard(dir) {
+      var card = track.querySelector(":scope > *");
+      var amount = card ? card.getBoundingClientRect().width + 20 : 300;
+      track.scrollBy({ left: dir * amount, behavior: "smooth" });
+    }
+    var prev = carousel.querySelector(".carousel-btn.prev");
+    var next = carousel.querySelector(".carousel-btn.next");
+    prev && prev.addEventListener("click", function () { scrollByCard(-1); });
+    next && next.addEventListener("click", function () { scrollByCard(1); });
+  });
+
   // --- Année courante dans le footer ---
   document.querySelectorAll("[data-current-year]").forEach(function (el) {
     el.textContent = new Date().getFullYear();
