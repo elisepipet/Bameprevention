@@ -261,7 +261,7 @@ INDEX_BODY = f"""
       </div>
       <div class="text-center" style="display:flex;flex-direction:column;align-items:center;">
         <div style="height:110px;display:flex;align-items:center;">
-          <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .6);height:auto;max-height:none;max-width:40vw;filter:none;" loading="lazy"></a>
+          <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié" style="width:calc(var(--logo-bame-size) * .85);height:auto;max-height:none;max-width:55vw;filter:none;" loading="lazy"></a>
         </div>
         <p class="muted" style="font-size:.8rem;margin-top:8px;">Certification qualité Qualiopi</p>
       </div>
