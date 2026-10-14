@@ -127,7 +127,7 @@ def render_header(current):
       </button>
     </div>
     <div class="header-qualiopi">
-      <img class="brand-qualiopi" src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié">
+      <a href="/assets/documents/Certificat_Qualiopi_884511.pdf" target="_blank" rel="noopener"><img class="brand-qualiopi" src="/assets/images/logo-qualiopi.jpg" alt="Qualiopi — processus certifié"></a>
     </div>
   </div>
 </header>
