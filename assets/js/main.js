@@ -174,6 +174,48 @@
     next && next.addEventListener("click", function () { scrollByCard(1); });
   });
 
+  // --- Chiffres clés : effet compteur animé au scroll ---
+  var counters = document.querySelectorAll(".stat-number[data-count]");
+  if (counters.length) {
+    var animateCount = function (el) {
+      var target = parseInt(el.getAttribute("data-count"), 10) || 0;
+      var suffix = el.getAttribute("data-suffix") || "";
+      var duration = 1400;
+      var start = null;
+      var step = function (timestamp) {
+        if (start === null) start = timestamp;
+        var progress = Math.min((timestamp - start) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 3);
+        var value = Math.round(eased * target);
+        el.textContent = value.toLocaleString("fr-FR") + suffix.replace("&nbsp;", " ");
+        if (progress < 1) {
+          requestAnimationFrame(step);
+        } else {
+          el.textContent = target.toLocaleString("fr-FR") + suffix.replace("&nbsp;", " ");
+        }
+      };
+      requestAnimationFrame(step);
+    };
+    if ("IntersectionObserver" in window) {
+      var counterObserver = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              animateCount(entry.target);
+              counterObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.4 }
+      );
+      counters.forEach(function (el) {
+        counterObserver.observe(el);
+      });
+    } else {
+      counters.forEach(animateCount);
+    }
+  }
+
   // --- Année courante dans le footer ---
   document.querySelectorAll("[data-current-year]").forEach(function (el) {
     el.textContent = new Date().getFullYear();
