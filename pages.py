@@ -50,7 +50,7 @@ INDEX_BODY = f"""
       <div class="hero-badges">
         <span class="hero-badge"><span class="badge-ico">{ICONS['award']}</span>Organisme habilité SST</span>
         <span class="hero-badge"><span class="badge-ico">{ICONS['clock']}</span>Disponibilité 2 à 4 semaines</span>
-        <span class="hero-badge"><span class="badge-ico">{ICONS['users']}</span>Référente handicap</span>
+        <a class="hero-badge" href="/assets/documents/Livret_Accueil_PSH.pdf" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['users']}</span>Référente handicap</a>
       </div>
     </div>
     <div class="hero-card">
@@ -373,6 +373,7 @@ A_PROPOS_BODY = f"""
         <div class="icon">{ICONS['shield']}</div>
         <h3>Référente handicap</h3>
         <p class="muted">Un accompagnement adapté à chaque stagiaire, en lien avec l'Agefiph pour les besoins spécifiques.</p>
+        <a class="btn btn-outline btn-sm" style="margin-top:14px;" href="/assets/documents/Livret_Accueil_PSH.pdf" target="_blank" rel="noopener">Livret d'accueil PSH (PDF)</a>
       </div>
     </div>
   </div>
@@ -403,6 +404,7 @@ PHILOSOPHIE_BODY = f"""
         <div class="icon">{ICONS['users']}</div>
         <h3>Accessibilité</h3>
         <p class="muted">Référente handicap dédiée, en lien avec l'Agefiph pour adapter chaque formation aux besoins spécifiques.</p>
+        <a class="btn btn-outline btn-sm" style="margin-top:14px;" href="/assets/documents/Livret_Accueil_PSH.pdf" target="_blank" rel="noopener">Livret d'accueil PSH (PDF)</a>
       </div>
       <div class="card" style="grid-column:1/-1;padding:0;overflow:hidden;">
         <img src="/assets/images/accessibilite-agefiph.png" alt="Politique d'accessibilité et d'accompagnement des personnes en situation de handicap — en lien avec l'Agefiph" style="width:100%;">
