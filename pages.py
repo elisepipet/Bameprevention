@@ -839,7 +839,10 @@ MENTIONS_LEGALES_BODY = """
     <p>Madame Laure PIPET — Email : lp@sofeca.com</p>
 
     <h2>3. Hébergeur du site</h2>
-    <p><em>Section à finaliser avant mise en ligne, une fois l'hébergeur définitif choisi (ex. Vercel Inc. ou Netlify Inc.) — indiquer ici sa raison sociale et son adresse complète.</em></p>
+    <p>Cloudflare, Inc.<br>
+    101 Townsend St, San Francisco, CA 94107, États-Unis<br>
+    <a href="https://www.cloudflare.com" target="_blank" rel="noopener">www.cloudflare.com</a></p>
+    <p>Comme tout hébergeur, Cloudflare traite des données techniques de connexion (adresse IP, requêtes, horodatage) à des fins de sécurité et de performance du réseau. Ce traitement technique n'est pas un cookie et ne repose pas sur un dépôt de cookie : il ne constitue pas une mesure d'audience au sens du consentement cookie décrit à l'article 6.</p>
 
     <h2>4. Propriété intellectuelle</h2>
     <p>L'ensemble du contenu présent sur le site bameprevention.fr (textes, images, photographies, logos, graphismes, vidéos, icônes, structure du site, etc.) est la propriété exclusive de BAME PRÉVENTION ou fait l'objet d'une autorisation d'utilisation.</p>
