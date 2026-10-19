@@ -854,7 +854,7 @@ MENTIONS_LEGALES_BODY = """
     <p>Vous disposez également du droit d'introduire une réclamation auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL) : <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a></p>
 
     <h2>6. Cookies</h2>
-    <p>Le site bameprevention.fr peut utiliser des cookies à des fins de mesure d'audience et de bon fonctionnement. Vous pouvez à tout moment paramétrer votre navigateur pour refuser les cookies.</p>
+    <p>Le site bameprevention.fr utilise uniquement des cookies techniques nécessaires à son fonctionnement (préférences d'affichage). Aucun cookie publicitaire ou de mesure d'audience tiers n'est déposé sans votre accord. Vous pouvez à tout moment paramétrer votre navigateur pour refuser les cookies.</p>
 
     <h2>7. Responsabilité</h2>
     <p>BAME PRÉVENTION s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, BAME PRÉVENTION ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur le site.</p>
