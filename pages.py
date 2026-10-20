@@ -12,6 +12,7 @@ ICONS = {
     "heart": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>',
     "users": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20c.6-3.6 3.3-6 6.5-6s5.9 2.4 6.5 6"/><circle cx="17.5" cy="8.5" r="2.6"/><path d="M15.5 14.3c2.5.2 4.6 2.3 5 5.7"/></svg>',
     "chevron-down": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M6 9l6 6 6-6"/></svg>',
+    "linkedin": '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.75 2.6 4.75 6v6.35h-4v-5.63c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21H9z"/></svg>',
     "check": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12.5l5 5L20 7"/></svg>',
     "award": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="5.2"/><path d="M8.5 12.7L7 21l5-2.4L17 21l-1.5-8.3"/></svg>',
     "clock": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>',
@@ -768,6 +769,7 @@ CONTACT_BODY = f"""
           <div class="row"><div class="icon">{ICONS['phone']}</div><div><strong>Téléphone</strong><br><a href="tel:+33667981471">+33 6 67 98 14 71</a></div></div>
           <div class="row"><div class="icon">{ICONS['mail']}</div><div><strong>Email</strong><br><a href="mailto:lp@sofeca.com">lp@sofeca.com</a></div></div>
           <div class="row"><div class="icon">{ICONS['pin']}</div><div><strong>Adresse</strong><br>2 bis rue du Parc, 77540 Bernay-Vilbert</div></div>
+          <div class="row"><div class="icon">{ICONS['linkedin']}</div><div><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/laure-le-solliec-pipet-certifi%C3%A9-qualiopi-pour-action-de-formation-81a190244/" target="_blank" rel="noopener">linkedin.com/in/laure-pipet</a></div></div>
         </div>
       </div>
 
