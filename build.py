@@ -8,6 +8,8 @@ import re
 from datetime import date
 from pathlib import Path
 
+from pages import ICONS  # noqa: E402
+
 ROOT = Path(__file__).parent
 
 # Domaine réellement en ligne actuellement. À remplacer par
@@ -143,12 +145,12 @@ FOOTER = f"""<footer class="site-footer">
           <span>BAME PRÉVENTION</span>
         </div>
         <p class="muted" style="color:#cfe0ea;font-size:.9rem;max-width:30ch;">Prévenir aujourd'hui pour mieux vivre demain. Formation et conseil en santé-sécurité au travail.</p>
-        <ul class="stack-sm" style="margin-top:14px;">
-          <li>2 bis Rue du Parc, 77540 Bernay-Vilbert</li>
-          <li><a href="tel:+33667981471">06 67 98 14 71</a></li>
-          <li><a href="mailto:lp@sofeca.com">lp@sofeca.com</a></li>
-          <li><a href="https://www.linkedin.com/in/laure-le-solliec-pipet-certifi%C3%A9-qualiopi-pour-action-de-formation-81a190244/" target="_blank" rel="noopener">LinkedIn</a></li>
-        </ul>
+        <div class="footer-contact">
+          <div class="row"><div class="icon">{ICONS['pin']}</div><span>2 bis Rue du Parc, 77540 Bernay-Vilbert</span></div>
+          <div class="row"><div class="icon">{ICONS['phone']}</div><a href="tel:+33667981471">06 67 98 14 71</a></div>
+          <div class="row"><div class="icon">{ICONS['mail']}</div><a href="mailto:lp@sofeca.com">lp@sofeca.com</a></div>
+          <div class="row"><div class="icon">{ICONS['linkedin']}</div><a href="https://www.linkedin.com/in/laure-le-solliec-pipet-certifi%C3%A9-qualiopi-pour-action-de-formation-81a190244/" target="_blank" rel="noopener">LinkedIn</a></div>
+        </div>
       </div>
       <div>
         <h4>Formations</h4>

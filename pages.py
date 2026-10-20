@@ -765,12 +765,12 @@ CONTACT_BODY = f"""
 
         <div class="divider"></div>
         <h2>Contactez-nous</h2>
-        <ul class="contact-info-list">
-          <li>2 bis rue du Parc, 77540 Bernay-Vilbert</li>
-          <li><a href="tel:+33667981471">+33 6 67 98 14 71</a></li>
-          <li><a href="mailto:lp@sofeca.com">lp@sofeca.com</a></li>
-          <li><a href="https://www.linkedin.com/in/laure-le-solliec-pipet-certifi%C3%A9-qualiopi-pour-action-de-formation-81a190244/" target="_blank" rel="noopener">LinkedIn</a></li>
-        </ul>
+        <div class="contact-info">
+          <div class="row"><div class="icon">{ICONS['phone']}</div><div><strong>Téléphone</strong><br><a href="tel:+33667981471">+33 6 67 98 14 71</a></div></div>
+          <div class="row"><div class="icon">{ICONS['mail']}</div><div><strong>Email</strong><br><a href="mailto:lp@sofeca.com">lp@sofeca.com</a></div></div>
+          <div class="row"><div class="icon">{ICONS['pin']}</div><div><strong>Adresse</strong><br>2 bis rue du Parc, 77540 Bernay-Vilbert</div></div>
+          <div class="row"><div class="icon">{ICONS['linkedin']}</div><div><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/laure-le-solliec-pipet-certifi%C3%A9-qualiopi-pour-action-de-formation-81a190244/" target="_blank" rel="noopener">linkedin.com/in/laure-pipet</a></div></div>
+        </div>
         </div>
       </div>
 
