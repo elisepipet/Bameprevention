@@ -409,9 +409,9 @@ p{ margin:0 0 1em; }
 .footer-social{
   display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px;
   border-radius:999px; background:rgba(255,255,255,.12); color:#fff; margin-top:16px;
-  transition:background .15s ease;
+  transition:background .15s ease, transform .15s ease;
 }
-.footer-social:hover{ background:#0a66c2; }
+.footer-social:hover{ background:rgba(255,255,255,.22); transform:translateY(-2px); }
 .footer-social svg{ width:18px; height:18px; }
 .footer-bottom{ border-top:1px solid rgba(255,255,255,.12); padding-top:22px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:.8rem; color:#8fa9b8; }
 
