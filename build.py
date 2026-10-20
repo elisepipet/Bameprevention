@@ -8,6 +8,8 @@ import re
 from datetime import date
 from pathlib import Path
 
+from pages import ICONS  # noqa: E402
+
 ROOT = Path(__file__).parent
 
 # Domaine réellement en ligne actuellement. À remplacer par
@@ -148,6 +150,7 @@ FOOTER = f"""<footer class="site-footer">
           <li><a href="tel:+33667981471">06 67 98 14 71</a></li>
           <li><a href="mailto:lp@sofeca.com">lp@sofeca.com</a></li>
         </ul>
+        <a class="footer-social" href="https://www.linkedin.com/in/laure-le-solliec-pipet-certifi%C3%A9-qualiopi-pour-action-de-formation-81a190244/" target="_blank" rel="noopener" aria-label="Laure PIPET sur LinkedIn">{ICONS['linkedin']}</a>
       </div>
       <div>
         <h4>Formations</h4>

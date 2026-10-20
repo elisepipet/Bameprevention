@@ -286,11 +286,12 @@ p{ margin:0 0 1em; }
   border:1px solid var(--line); transition:transform .15s ease, box-shadow .15s ease;
 }
 .card:hover{ transform:translateY(-4px); box-shadow:var(--shadow-md); }
-.card .icon{
+.icon{
   width:52px; height:52px; border-radius:14px; display:flex; align-items:center; justify-content:center;
-  background:var(--success-bg); color:var(--teal-dark); margin-bottom:16px;
+  background:var(--success-bg); color:var(--teal-dark);
 }
-.card .icon svg{ width:26px; height:26px; }
+.icon svg{ width:26px; height:26px; }
+.card .icon{ margin-bottom:16px; }
 
 .training-card{
   background:var(--paper); border-radius:var(--radius-lg); padding:0; overflow:hidden;
@@ -405,6 +406,13 @@ p{ margin:0 0 1em; }
 .footer-brand{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
 .footer-brand img{ height:42px; border-radius:6px; }
 .footer-brand span{ font-family:var(--font-head); font-weight:700; color:#fff; font-size:1.05rem; }
+.footer-social{
+  display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px;
+  border-radius:999px; background:rgba(255,255,255,.12); color:#fff; margin-top:16px;
+  transition:background .15s ease;
+}
+.footer-social:hover{ background:#0a66c2; }
+.footer-social svg{ width:18px; height:18px; }
 .footer-bottom{ border-top:1px solid rgba(255,255,255,.12); padding-top:22px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:.8rem; color:#8fa9b8; }
 
 /* Cookie banner */
