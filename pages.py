@@ -210,20 +210,20 @@ INDEX_BODY = f"""
     </div>
     <div class="stats">
       <div class="stat">
-        <div class="stat-number" data-count="260">0</div>
+        <div class="stat-number" data-count="260">260</div>
         <div class="stat-label">formations en prévention réalisées en sous-traitance depuis 2022</div>
       </div>
       <div class="stat">
-        <div class="stat-number" data-count="1673">0</div>
+        <div class="stat-number" data-count="1673">1&nbsp;673</div>
         <div class="stat-label">salariés formés avec succès, toutes formations confondues</div>
         <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Décompte réalisé au 5 juin 2026</div>
       </div>
       <div class="stat">
-        <div class="stat-number" data-count="98" data-suffix="&nbsp;%">0</div>
+        <div class="stat-number" data-count="98" data-suffix="&nbsp;%">98&nbsp;%</div>
         <div class="stat-label">de satisfaction sur la qualité pédagogique</div>
       </div>
       <div class="stat">
-        <div class="stat-number" data-count="88">0</div>
+        <div class="stat-number" data-count="88">88</div>
         <div class="stat-label">salariés formés en une journée lors d'un atelier malaise &amp; nutrition</div>
       </div>
     </div>

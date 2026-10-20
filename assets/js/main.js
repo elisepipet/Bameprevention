@@ -182,6 +182,7 @@
       var suffix = el.getAttribute("data-suffix") || "";
       var duration = 1400;
       var start = null;
+      el.textContent = "0";
       var step = function (timestamp) {
         if (start === null) start = timestamp;
         var progress = Math.min((timestamp - start) / duration, 1);
