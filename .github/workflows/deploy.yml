@@ -1,0 +1,12 @@
+name: Déploiement statichost.eu
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Déclenche le build sur statichost.eu
+        run: curl -fX POST https://builder.statichost.eu/testbametest --no-progress-meter
