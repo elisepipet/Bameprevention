@@ -183,7 +183,7 @@ INDEX_BODY = f"""
         <summary>En savoir plus sur notre engagement <span class="chevron">{ICONS['chevron-down']}</span></summary>
         <div class="grid" style="gap:18px;">
           <p class="lede" style="margin-bottom:4px;">En donnant aux salariés les clés pour identifier et gérer les dangers, les entreprises renforcent la sécurité au quotidien. Intégrer ces enjeux dans la formation continue, c'est protéger les équipes tout en améliorant la performance et le climat de travail.</p>
-          <a class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);justify-self:start;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['award']}</span>Habilitation INRS n° H30859/2023/SST-1/O/12 (liste officielle, p. 123)</a>
+          <a class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);justify-self:start;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['award']}</span>Habilitation INRS n° ALC27016 (liste officielle, p. 123)</a>
           <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
             <div class="icon" style="margin:0;">{ICONS['target']}</div>
             <div><h3 style="margin-bottom:4px;">Conseil personnalisé</h3><p class="muted mb-0">Un accompagnement sur mesure selon vos besoins spécifiques.</p></div>
