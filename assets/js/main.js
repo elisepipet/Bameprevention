@@ -111,7 +111,7 @@
             form.reset();
             if (status) {
               status.className = "form-status is-visible ok";
-              status.textContent = "Merci, votre message a bien été envoyé !";
+              status.textContent = "Merci ! Nous revenons très vite vers vous pour vous proposer un plan adapté à votre demande. Cordialement. Laure PIPET";
             }
           } else {
             throw new Error("send-failed");
