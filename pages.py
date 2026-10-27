@@ -839,10 +839,10 @@ MENTIONS_LEGALES_BODY = """
     <p>Madame Laure PIPET — Email : lp@sofeca.com</p>
 
     <h2>3. Hébergeur du site</h2>
-    <p>Cloudflare, Inc.<br>
-    101 Townsend St, San Francisco, CA 94107, États-Unis<br>
-    <a href="https://www.cloudflare.com" target="_blank" rel="noopener">www.cloudflare.com</a></p>
-    <p>Comme tout hébergeur, Cloudflare traite des données techniques de connexion (adresse IP, requêtes, horodatage) à des fins de sécurité et de performance du réseau. Ce traitement technique n'est pas un cookie et ne repose pas sur un dépôt de cookie : il ne constitue pas une mesure d'audience au sens du consentement cookie décrit à l'article 6.</p>
+    <p>Variable Object Assignment (statichost.eu)<br>
+    c/o Knackeriet, Svartmangatan 9, 111 29 Stockholm, Suède<br>
+    <a href="https://www.statichost.eu" target="_blank" rel="noopener">www.statichost.eu</a></p>
+    <p>Comme tout hébergeur, statichost.eu traite des données techniques de connexion (adresse IP, requêtes, horodatage) à des fins de sécurité et de performance du réseau. Ce traitement technique n'est pas un cookie et ne repose pas sur un dépôt de cookie : il ne constitue pas une mesure d'audience au sens du consentement cookie décrit à l'article 6.</p>
 
     <h2>4. Propriété intellectuelle</h2>
     <p>L'ensemble du contenu présent sur le site bameprevention.fr (textes, images, photographies, logos, graphismes, vidéos, icônes, structure du site, etc.) est la propriété exclusive de BAME PRÉVENTION ou fait l'objet d'une autorisation d'utilisation.</p>
@@ -867,7 +867,7 @@ MENTIONS_LEGALES_BODY = """
     <h2>8. Contact</h2>
     <p>Pour toute question relative aux présentes mentions légales :<br>Email : lp@sofeca.com<br>Téléphone : 06 67 98 14 71</p>
 
-    <p class="muted" style="margin-top:2.5em;font-size:.85rem;">Mentions légales mises à jour le : 5 mai 2026.</p>
+    <p class="muted" style="margin-top:2.5em;font-size:.85rem;">Mentions légales mises à jour le : 27 octobre 2026.</p>
   </div>
 </section>
 """
@@ -921,7 +921,18 @@ RGPD_BODY = """
       <li>L'Agefiph ou organismes spécialisés (uniquement avec l'accord du stagiaire pour adapter la formation au handicap)</li>
     </ul>
 
-    <h2>5. Durée de conservation</h2>
+    <h2>5. Sous-traitants et services tiers</h2>
+    <p>Pour faire fonctionner le site et ses services annexes (hébergement, formulaire de contact, newsletter, affichage), BAME PRÉVENTION fait appel aux prestataires techniques suivants, qui agissent en tant que sous-traitants au sens du RGPD et ne traitent les données que pour le compte de BAME PRÉVENTION :</p>
+    <ul>
+      <li><strong>statichost.eu (Variable Object Assignment)</strong> — Hébergement du site web. Stockholm, Suède (UE). Traite les données techniques de connexion (adresse IP, requêtes) nécessaires à l'affichage du site.</li>
+      <li><strong>Formward (EGF Fastighetsservice AB)</strong> — Réception des messages envoyés via le formulaire de contact du site (nom, entreprise, email, objet, message). Stockholm, Suède (UE).</li>
+      <li><strong>Brevo (Sendinblue)</strong> — Gestion de l'inscription à la newsletter (adresse email, consentement). Paris, France (UE).</li>
+      <li><strong>Google LLC / Google Ireland Limited (Google Fonts)</strong> — Fourniture des polices de caractères affichées sur le site ; l'adresse IP du visiteur est transmise aux serveurs de Google lors du chargement d'une page.</li>
+      <li><strong>Google LLC (Google Forms / Google Sheets)</strong> — Utilisé ponctuellement pour la collecte des inscriptions à certaines formations (voir durée de conservation ci-dessous).</li>
+    </ul>
+    <p>Aucun de ces prestataires n'est autorisé à réutiliser les données à d'autres fins que celles décrites ci-dessus.</p>
+
+    <h2>6. Durée de conservation</h2>
     <ul>
       <li>Données de formation (dossier complet) : 5 ans à compter de la fin de la formation, conformément aux exigences du référentiel Qualiopi et du Code du Travail, puis passées à la broyeuse avec certificat de destruction sur l'honneur sur demande.</li>
       <li>Données comptables et fiscales (factures) : 10 ans, conformément à l'article L.123-22 du Code de Commerce</li>
@@ -930,7 +941,7 @@ RGPD_BODY = """
     </ul>
     <p>À l'issue de ces durées, les données sont supprimées de manière sécurisée. Les emails sont supprimés automatiquement au bout d'un mois. Pour les inscriptions via Google Form, les réponses sont supprimées du Google Sheet une fois les informations récoltées.</p>
 
-    <h2>6. Vos droits</h2>
+    <h2>7. Vos droits</h2>
     <ul>
       <li>Droit d'accès : obtenir la confirmation que vos données sont traitées et en obtenir une copie</li>
       <li>Droit de rectification : faire rectifier des données inexactes ou incomplètes</li>
@@ -943,19 +954,19 @@ RGPD_BODY = """
     <p>Pour exercer ces droits, vous pouvez nous contacter à tout moment par email à lp@sofeca.com ou par courrier à BAME PRÉVENTION — 2 bis Rue du Parc — 77540 Bernay-Vilbert.</p>
     <p>Une réponse vous sera apportée dans un délai d'un mois maximum à compter de la réception de votre demande. Une preuve d'identité pourra être demandée pour s'assurer de la légitimité de la demande.</p>
 
-    <h2>7. Réclamation auprès de la CNIL</h2>
+    <h2>8. Réclamation auprès de la CNIL</h2>
     <p>Si vous estimez que le traitement de vos données personnelles n'est pas conforme à la réglementation, vous disposez du droit d'introduire une réclamation auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL) :</p>
     <p>CNIL — 3 Place de Fontenoy — TSA 80715 — 75334 PARIS CEDEX 07<br>
     Téléphone : 01 53 73 22 22<br>
     Site web : <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a></p>
 
-    <h2>8. Sécurité des données</h2>
+    <h2>9. Sécurité des données</h2>
     <p>BAME PRÉVENTION met en œuvre les mesures techniques et organisationnelles appropriées pour garantir la sécurité et la confidentialité des données personnelles : accès restreint, mots de passe sécurisés, sauvegardes régulières, conservation locale sur poste protégé, transfert chiffré (HTTPS, SSL).</p>
 
-    <h2>9. Modification de la politique</h2>
+    <h2>10. Modification de la politique</h2>
     <p>BAME PRÉVENTION se réserve le droit de modifier la présente politique de confidentialité à tout moment. La date de dernière mise à jour est indiquée ci-dessous.</p>
 
-    <p class="muted" style="margin-top:2.5em;font-size:.85rem;">Politique de confidentialité mise à jour le : 5 mai 2026.</p>
+    <p class="muted" style="margin-top:2.5em;font-size:.85rem;">Politique de confidentialité mise à jour le : 27 octobre 2026.</p>
   </div>
 </section>
 """
