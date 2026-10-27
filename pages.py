@@ -50,7 +50,7 @@ INDEX_BODY = f"""
       <div class="hero-badges">
         <span class="hero-badge"><span class="badge-ico">{ICONS['award']}</span>Organisme habilité SST</span>
         <span class="hero-badge"><span class="badge-ico">{ICONS['clock']}</span>Disponibilité 2 à 4 semaines</span>
-        <a class="hero-badge" href="/assets/documents/Livret_Accueil_PSH.pdf" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['users']}</span>Référente handicap</a>
+        <a class="hero-badge" href="/philosophie.html#accessibilite"><span class="badge-ico">{ICONS['users']}</span>Référente handicap Agefiph</a>
       </div>
     </div>
     <div class="hero-card">
@@ -400,7 +400,7 @@ PHILOSOPHIE_BODY = f"""
         <h3>Qualité</h3>
         <p class="muted">Une démarche qualité au service de votre sécurité. Organisme de formation déclaré (NDA n° 11770808577), formatrice Sauveteur Secouriste du Travail habilitée par le réseau Assurance Maladie / INRS (habilitation n° ALC27016), démarche inspirée du référentiel Qualiopi : la rigueur au service de votre confiance.</p>
       </div>
-      <div class="card">
+      <div class="card" id="accessibilite" style="scroll-margin-top:100px;">
         <div class="icon">{ICONS['users']}</div>
         <h3>Accessibilité</h3>
         <p class="muted">Référente handicap dédiée, en lien avec l'Agefiph pour adapter chaque formation aux besoins spécifiques.</p>
