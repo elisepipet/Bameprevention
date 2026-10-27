@@ -232,3 +232,22 @@ for slug, (title, description, body) in PAGES.items():
     page(slug, title, description, body)
 
 print(f"\n{len(PAGES)} pages générées.")
+
+
+def render_sitemap():
+    urls = []
+    for slug in PAGES:
+        loc = BASE_URL if slug == "index" else f"{BASE_URL}/{slug}.html"
+        urls.append(f"  <url><loc>{loc}</loc></url>")
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(urls)
+        + "\n</urlset>\n"
+    )
+    out = ROOT / "sitemap.xml"
+    out.write_text(xml, encoding="utf-8")
+    print("wrote", out.name)
+
+
+render_sitemap()

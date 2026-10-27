@@ -183,7 +183,7 @@ INDEX_BODY = f"""
         <summary>En savoir plus sur notre engagement <span class="chevron">{ICONS['chevron-down']}</span></summary>
         <div class="grid" style="gap:18px;">
           <p class="lede" style="margin-bottom:4px;">En donnant aux salariés les clés pour identifier et gérer les dangers, les entreprises renforcent la sécurité au quotidien. Intégrer ces enjeux dans la formation continue, c'est protéger les équipes tout en améliorant la performance et le climat de travail.</p>
-          <a class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);justify-self:start;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['award']}</span>Habilitation INRS n° ALC27016 (liste officielle, p. 123)</a>
+          <a class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);justify-self:start;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['award']}</span>Habilitation INRS n° ALC27016 — Laure PIPET LE SOLLIEC (liste officielle, p. 123)</a>
           <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
             <div class="icon" style="margin:0;">{ICONS['target']}</div>
             <div><h3 style="margin-bottom:4px;">Conseil personnalisé</h3><p class="muted mb-0">Un accompagnement sur mesure selon vos besoins spécifiques.</p></div>
@@ -505,7 +505,7 @@ SST_BODY = formation_page(
     "SST — Sauveteur Secouriste du Travail",
     "Formation obligatoire — 14h sur 2 jours",
     "SST — Sauveteur Secouriste du Travail",
-    "L'article R.4224-15 du Code du travail stipule que la présence d'un salarié formé est obligatoire dans chaque atelier où sont réalisés des travaux dangereux. Dans les chantiers de BTP occupant au moins 20 salariés pendant plus de 15 jours, un salarié formé doit également être présent s'il y a des travaux dangereux. Cette obligation s'applique en l'absence d'infirmier sur le lieu de travail.",
+    "L'article <a href='https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018532203' target='_blank' rel='noopener'>R.4224-15</a> du Code du travail stipule que la présence d'un salarié formé est obligatoire dans chaque atelier où sont réalisés des travaux dangereux. Dans les chantiers de BTP occupant au moins 20 salariés pendant plus de 15 jours, un salarié formé doit également être présent s'il y a des travaux dangereux. Cette obligation s'applique en l'absence d'infirmier sur le lieu de travail.",
     "Grâce à cette formation, vous serez capable de <strong>PROTÉGER, EXAMINER, FAIRE ALERTER OU ALERTER, ET SECOURIR</strong> de manière efficace et structurée.",
     [
         ("/assets/documents/Plaquette_SST_Initial.pdf", "PLAQUETTE DE PRESENTATION"),
@@ -519,7 +519,7 @@ MAC_SST_BODY = formation_page(
     "MAC SST — Maintien et actualisation des compétences",
     "Recyclage obligatoire — 7h",
     "SST MAC — Maintien des compétences acquises",
-    "L'article R.4224-15 du Code du travail stipule que la présence d'un salarié formé est obligatoire dans chaque atelier où sont réalisés des travaux dangereux. Dans les chantiers de BTP occupant au moins 20 salariés pendant plus de 15 jours, un salarié formé doit également être présent s'il y a des travaux dangereux. Cette obligation s'applique en l'absence d'infirmier sur le lieu de travail.",
+    "L'article <a href='https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018532203' target='_blank' rel='noopener'>R.4224-15</a> du Code du travail stipule que la présence d'un salarié formé est obligatoire dans chaque atelier où sont réalisés des travaux dangereux. Dans les chantiers de BTP occupant au moins 20 salariés pendant plus de 15 jours, un salarié formé doit également être présent s'il y a des travaux dangereux. Cette obligation s'applique en l'absence d'infirmier sur le lieu de travail.",
     "Grâce à cette actualisation, vous serez capable de <strong>démontrer que vous n'avez rien oublié de votre formation initiale</strong>.",
     [
         ("/assets/documents/Plaquette_MAC_SST.pdf", "PLAQUETTE DE PRESENTATION"),
@@ -540,7 +540,7 @@ SECOURS_BODY = f"""
 <section class="section">
   <div class="container">
     <h2>Cadre réglementaire</h2>
-    <p class="lede">L'article L.721-1 du code de la sécurité intérieure a été modifié pour introduire le statut de citoyen sauveteur, défini comme toute personne portant assistance de manière bénévole à une personne en situation apparente de péril grave et imminent. Ce statut permet aux citoyens de bénéficier de la qualité de collaborateur occasionnel du service public et d'être exonérés de toute responsabilité civile lorsqu'il résulte un préjudice du fait de leur intervention, sauf en cas de faute lourde ou intentionnelle.</p>
+    <p class="lede">L'article <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042083941" target="_blank" rel="noopener">L.721-1</a> du code de la sécurité intérieure a été modifié pour introduire le statut de citoyen sauveteur, défini comme toute personne portant assistance de manière bénévole à une personne en situation apparente de péril grave et imminent. Ce statut permet aux citoyens de bénéficier de la qualité de collaborateur occasionnel du service public et d'être exonérés de toute responsabilité civile lorsqu'il résulte un préjudice du fait de leur intervention, sauf en cas de faute lourde ou intentionnelle.</p>
     <div class="quote-block" style="margin-top:24px;">Mettre en œuvre les bonnes pratiques de secours, c'est essentiel au quotidien.</div>
 
     <div class="grid grid-2" style="gap:32px;margin-top:40px;align-items:start;">
@@ -642,7 +642,7 @@ GESTES_POSTURES_BODY = f"""
     <div class="grid grid-2" style="gap:40px;align-items:flex-start;">
       <div>
         <h2>Cadre réglementaire</h2>
-        <p class="lede">Les articles R.4541-8 et R.231-71 du Code du travail imposent à l'employeur de former les salariés aux gestes et postures adaptés à leur poste de travail. Cette formation est requise à l'embauche, au changement de poste, au retour d'arrêt long ou sur recommandation médicale. Elle concerne tous les secteurs, y compris manutention, tertiaire, santé, logistique, et plus encore.</p>
+        <p class="lede">Les articles <a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018528891" target="_blank" rel="noopener">R.4541-8</a> et R.231-71 du Code du travail imposent à l'employeur de former les salariés aux gestes et postures adaptés à leur poste de travail. Cette formation est requise à l'embauche, au changement de poste, au retour d'arrêt long ou sur recommandation médicale. Elle concerne tous les secteurs, y compris manutention, tertiaire, santé, logistique, et plus encore.</p>
         <div class="quote-block" style="margin-top:24px;">Réaliser les bons gestes pour se protéger des maladies professionnelles.</div>
       </div>
       <div class="card sticky-card">
@@ -851,8 +851,8 @@ MENTIONS_LEGALES_BODY = """
 
     <h2>5. Données personnelles — RGPD</h2>
     <p>Conformément au Règlement Général sur la Protection des Données (RGPD) n° 2016/679 et à la loi Informatique et Libertés modifiée, vous disposez d'un droit d'accès, de rectification, d'effacement, de portabilité et d'opposition concernant vos données personnelles.</p>
-    <p>Les informations recueillies via le formulaire d'inscription du site sont nécessaires à la gestion de votre dossier de formation et au respect des obligations légales et réglementaires applicables aux organismes de formation professionnelle (article L.6353-1 du Code du Travail, référentiel Qualiopi).</p>
-    <p>Vos données sont conservées pendant une durée de 5 ans à compter de la fin de la dernière formation suivie, puis détruites. Elles ne sont pas transmises à des tiers, à l'exception des organismes officiels (INRS, financeurs de formation) lorsque la formation l'exige.</p>
+    <p>Le site collecte des données personnelles via deux formulaires : le <strong>formulaire de contact</strong> (nom, entreprise, email, objet, message — traité par notre prestataire Formward) et l'<strong>inscription à la newsletter</strong> (adresse email — traitée par notre prestataire Brevo). Ces informations sont nécessaires pour répondre à votre demande ou vous adresser nos actualités, et au respect des obligations légales et réglementaires applicables aux organismes de formation professionnelle (article L.6353-1 du Code du Travail, référentiel Qualiopi).</p>
+    <p>Pour le détail complet des données collectées, des sous-traitants utilisés, des durées de conservation et de vos droits, consultez notre <a href="/rgpd.html">politique de confidentialité</a>.</p>
     <p>Pour exercer vos droits, vous pouvez nous contacter par email à lp@sofeca.com ou par courrier à l'adresse de l'entreprise indiquée ci-dessus.</p>
     <p>Vous disposez également du droit d'introduire une réclamation auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL) : <a href="https://www.cnil.fr" target="_blank" rel="noopener">www.cnil.fr</a></p>
 
