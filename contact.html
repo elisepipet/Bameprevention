@@ -86,9 +86,7 @@
         </div>
       </div>
 
-      <form class="form-card" data-ajax-form action="https://api.web3forms.com/submit">
-        <input type="hidden" name="access_key" value="0a1a4e74-3785-4056-9215-46690542ffb8">
-        <input type="hidden" name="from_name" value="Formulaire de contact BAME PRÉVENTION">
+      <form class="form-card" data-ajax-form action="https://forms.formward.eu/f/85507bed-9f5b-48e5-ad17-c09975afb23d">
         <h2 style="margin-top:0;">Envoyer un message</h2>
         <div class="field">
           <label for="contact-name">Nom et prénom *</label>
@@ -96,7 +94,7 @@
         </div>
         <div class="field">
           <label for="contact-company">Entreprise</label>
-          <input id="contact-company" name="company" type="text" placeholder="Nom de votre entreprise">
+          <input id="contact-company" name="message" type="text" placeholder="Nom de votre entreprise">
         </div>
         <div class="field">
           <label for="contact-email">E-mail *</label>
@@ -104,12 +102,13 @@
         </div>
         <div class="field">
           <label for="contact-subject">Objet *</label>
-          <input id="contact-subject" name="subject" type="text" required placeholder="Formation SST, DUERP, devis…">
+          <input id="contact-subject" name="topic" type="text" required placeholder="Formation SST, DUERP, devis…">
         </div>
         <div class="field">
           <label for="contact-message">Message *</label>
-          <textarea id="contact-message" name="message" rows="6" required placeholder="Décrivez votre besoin, le nombre de salariés concernés, vos disponibilités…"></textarea>
+          <textarea id="contact-message" name="message_2" rows="6" required placeholder="Décrivez votre besoin, le nombre de salariés concernés, vos disponibilités…"></textarea>
         </div>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <label class="field-check">
           <input type="checkbox" required name="consent">
           <span>J'accepte que ces données soient stockées et traitées dans le but d'établir un contact. Je suis conscient(e) que je peux révoquer mon consentement à tout moment.*</span>
@@ -179,7 +178,7 @@
     <div class="footer-bottom">
       <span>&copy; <span data-current-year>2026</span> BAME PRÉVENTION — Laure PIPET · SIRET 91990879800011 · NDA 11770808577</span>
       <span>Organisme de formation déclaré — formatrice SST habilitée INRS</span>
-      <span>Dernière mise à jour du site : 20 octobre 2026</span>
+      <span>Dernière mise à jour du site : 27 octobre 2026</span>
     </div>
   </div>
 </footer>

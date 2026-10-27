@@ -3,8 +3,7 @@
 Chaque entrée : slug -> (title, meta description, corps HTML).
 """
 
-CONTACT_FORM_ACTION = "https://api.web3forms.com/submit"
-WEB3FORMS_ACCESS_KEY = "0a1a4e74-3785-4056-9215-46690542ffb8"
+CONTACT_FORM_ACTION = "https://forms.formward.eu/f/85507bed-9f5b-48e5-ad17-c09975afb23d"
 NEWSLETTER_FORM_ACTION = "https://30d9b1be.sibforms.com/serve/MUIFAE7Bq2oiuqqEOznmQJ79DS0t1mcC2Rt_OOJfnLlq_fJReuIK0seKYTNrhKEnmaF-Hs2oY-IMTG-54NkeWGZMMGunjLmNlzFB5k6iQuBvmH6LR8KQwfyDnaVwGax4TcBpmiu2XKnnCRSy-8agnG-t-JvnqaMx6ASrMshQfzb3MrYc2XHpkDtIvHDBhHyEWSQTjroZJyAOePaRJQ=="
 
 ICONS = {
@@ -765,8 +764,6 @@ CONTACT_BODY = f"""
       </div>
 
       <form class="form-card" data-ajax-form action="{CONTACT_FORM_ACTION}">
-        <input type="hidden" name="access_key" value="{WEB3FORMS_ACCESS_KEY}">
-        <input type="hidden" name="from_name" value="Formulaire de contact BAME PRÉVENTION">
         <h2 style="margin-top:0;">Envoyer un message</h2>
         <div class="field">
           <label for="contact-name">Nom et prénom *</label>
@@ -774,7 +771,7 @@ CONTACT_BODY = f"""
         </div>
         <div class="field">
           <label for="contact-company">Entreprise</label>
-          <input id="contact-company" name="company" type="text" placeholder="Nom de votre entreprise">
+          <input id="contact-company" name="message" type="text" placeholder="Nom de votre entreprise">
         </div>
         <div class="field">
           <label for="contact-email">E-mail *</label>
@@ -782,12 +779,13 @@ CONTACT_BODY = f"""
         </div>
         <div class="field">
           <label for="contact-subject">Objet *</label>
-          <input id="contact-subject" name="subject" type="text" required placeholder="Formation SST, DUERP, devis…">
+          <input id="contact-subject" name="topic" type="text" required placeholder="Formation SST, DUERP, devis…">
         </div>
         <div class="field">
           <label for="contact-message">Message *</label>
-          <textarea id="contact-message" name="message" rows="6" required placeholder="Décrivez votre besoin, le nombre de salariés concernés, vos disponibilités…"></textarea>
+          <textarea id="contact-message" name="message_2" rows="6" required placeholder="Décrivez votre besoin, le nombre de salariés concernés, vos disponibilités…"></textarea>
         </div>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <label class="field-check">
           <input type="checkbox" required name="consent">
           <span>J'accepte que ces données soient stockées et traitées dans le but d'établir un contact. Je suis conscient(e) que je peux révoquer mon consentement à tout moment.*</span>
