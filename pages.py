@@ -50,7 +50,7 @@ INDEX_BODY = f"""
       <div class="hero-badges">
         <span class="hero-badge"><span class="badge-ico">{ICONS['award']}</span>Organisme habilité SST</span>
         <span class="hero-badge"><span class="badge-ico">{ICONS['clock']}</span>Disponibilité 2 à 4 semaines</span>
-        <a class="hero-badge" href="/philosophie.html#accessibilite"><span class="badge-ico">{ICONS['users']}</span>Référente handicap Agefiph</a>
+        <a class="hero-badge" href="/philosophie.html#accessibilite"><span class="badge-ico">{ICONS['users']}</span>Référente handicap / fiche Agefiph</a>
       </div>
     </div>
     <div class="hero-card">
