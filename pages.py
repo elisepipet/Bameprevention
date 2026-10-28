@@ -183,7 +183,7 @@ INDEX_BODY = f"""
         <summary>En savoir plus sur notre engagement <span class="chevron">{ICONS['chevron-down']}</span></summary>
         <div class="grid" style="gap:18px;">
           <p class="lede" style="margin-bottom:4px;">En donnant aux salariés les clés pour identifier et gérer les dangers, les entreprises renforcent la sécurité au quotidien. Intégrer ces enjeux dans la formation continue, c'est protéger les équipes tout en améliorant la performance et le climat de travail.</p>
-          <a class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);justify-self:start;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['award']}</span>Habilitation INRS n° ALC27016 — Laure PIPET LE SOLLIEC (liste officielle, p. 123)</a>
+          <a class="hero-badge" style="color:var(--navy);border-color:var(--line);background:var(--success-bg);justify-self:start;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener"><span class="badge-ico">{ICONS['award']}</span>Habilitation INRS n° H30859/2023/SST-1/O/12 — Laure PIPET LE SOLLIEC (liste officielle, p. 123) · N° formatrice ForPrev : ALC27016</a>
           <div class="card" style="display:flex;gap:16px;align-items:flex-start;padding:22px;">
             <div class="icon" style="margin:0;">{ICONS['target']}</div>
             <div><h3 style="margin-bottom:4px;">Conseil personnalisé</h3><p class="muted mb-0">Un accompagnement sur mesure selon vos besoins spécifiques.</p></div>
@@ -398,7 +398,7 @@ PHILOSOPHIE_BODY = f"""
       <div class="card">
         <div class="icon">{ICONS['award']}</div>
         <h3>Qualité</h3>
-        <p class="muted">Une démarche qualité au service de votre sécurité. Organisme de formation déclaré (NDA n° 11770808577), formatrice Sauveteur Secouriste du Travail habilitée par le réseau Assurance Maladie / INRS (habilitation n° ALC27016), démarche inspirée du référentiel Qualiopi : la rigueur au service de votre confiance.</p>
+        <p class="muted">Une démarche qualité au service de votre sécurité. Organisme de formation déclaré (NDA n° 11770808577), formatrice Sauveteur Secouriste du Travail habilitée par le réseau Assurance Maladie / INRS (habilitation n° H30859/2023/SST-1/O/12, n° formatrice ForPrev ALC27016), démarche inspirée du référentiel Qualiopi : la rigueur au service de votre confiance.</p>
       </div>
       <div class="card" id="accessibilite" style="scroll-margin-top:100px;">
         <div class="icon">{ICONS['users']}</div>
@@ -840,8 +840,9 @@ MENTIONS_LEGALES_BODY = """
 
     <h2>3. Hébergeur du site</h2>
     <p>Variable Object Assignment (statichost.eu)<br>
-    c/o Knackeriet, Svartmangatan 9, 111 29 Stockholm, Suède<br>
-    <a href="https://www.statichost.eu" target="_blank" rel="noopener">www.statichost.eu</a></p>
+    c/o Knackeriet, Sankt Paulsgatan 25, 118 48 Stockholm, Suède<br>
+    N° d'immatriculation : 860201-7611<br>
+    Contact : <a href="mailto:hello@statichost.eu">hello@statichost.eu</a> — <a href="https://www.statichost.eu" target="_blank" rel="noopener">www.statichost.eu</a></p>
     <p>Comme tout hébergeur, statichost.eu traite des données techniques de connexion (adresse IP, requêtes, horodatage) à des fins de sécurité et de performance du réseau. Ce traitement technique n'est pas un cookie et ne repose pas sur un dépôt de cookie : il ne constitue pas une mesure d'audience au sens du consentement cookie décrit à l'article 6.</p>
 
     <h2>4. Propriété intellectuelle</h2>
