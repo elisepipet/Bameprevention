@@ -363,6 +363,7 @@ A_PROPOS_BODY = f"""
         <div class="icon">{ICONS['award']}</div>
         <h3>Formatrice habilitée INRS</h3>
         <p class="muted">Habilitation SST et PRAP reconnue, pour des formations conformes aux exigences réglementaires et pédagogiques.</p>
+        <a class="btn btn-outline btn-sm" style="margin-top:14px;" href="/assets/documents/Liste_INRS_Organismes_Habilites_SST.pdf#page=123" target="_blank" rel="noopener">Liste officielle INRS (PDF)</a>
       </div>
       <div class="card">
         <div class="icon">{ICONS['heart']}</div>
