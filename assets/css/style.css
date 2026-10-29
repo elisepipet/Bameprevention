@@ -362,7 +362,8 @@ p{ margin:0 0 1em; }
 }
 .field input:focus, .field textarea:focus, .field select:focus{ outline:none; border-color:var(--teal); background:#fff; }
 .field-check{ display:flex; gap:10px; align-items:flex-start; font-size:.85rem; color:var(--ink-soft); }
-.field-check input{ width:auto; margin-top:3px; }
+.field-check input{ width:20px; height:20px; min-width:20px; margin-top:2px; accent-color:var(--teal-dark); cursor:pointer; }
+@media (max-width:560px){ .field-check input{ width:24px; height:24px; min-width:24px; } }
 .form-note{ font-size:.78rem; color:var(--ink-soft); margin-top:6px; }
 .form-status{ margin-top:14px; font-size:.9rem; font-weight:600; display:none; }
 .form-status.is-visible{ display:block; }
