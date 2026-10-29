@@ -12,10 +12,7 @@ from pages import ICONS  # noqa: E402
 
 ROOT = Path(__file__).parent
 
-# Domaine réellement en ligne actuellement. À remplacer par
-# "https://www.bameprevention.fr" une fois le nom de domaine définitif
-# connecté (sinon les aperçus de lien / og:image pointent dans le vide).
-BASE_URL = "https://testbametest.statichost.page"
+BASE_URL = "https://www.bameprevention.fr"
 
 MOIS_FR = [
     "janvier", "février", "mars", "avril", "mai", "juin",
