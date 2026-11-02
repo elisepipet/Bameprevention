@@ -273,11 +273,11 @@ INDEX_BODY = f"""
     <h3 style="color:#fff;text-align:center;margin:0 0 16px;">En sous-traitance <span style="font-weight:400;opacity:.8;">(depuis 2022)</span></h3>
     <div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:900px;margin:0 auto;">
       <div class="stat">
-        <div class="stat-number" data-count="260">260</div>
+        <div class="stat-number" data-count="274">274</div>
         <div class="stat-label">formations en prévention réalisées en sous-traitance</div>
       </div>
       <div class="stat">
-        <div class="stat-number" data-count="1696">1&nbsp;696</div>
+        <div class="stat-number" data-count="1937">1&nbsp;937</div>
         <div class="stat-label">salariés formés en sous-traitance</div>
         <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Décompte réalisé au 29 octobre 2026</div>
       </div>
