@@ -39,22 +39,28 @@ def doc_links(items):
 VISUEL_360 = '''<svg class="visuel-360" viewBox="0 0 560 410" role="img" aria-labelledby="v360t v360d" xmlns="http://www.w3.org/2000/svg">
   <title id="v360t">BAME PRÉVENTION 360</title>
   <desc id="v360d">Au centre, le logo 360. Autour, les cinq familles de cartes du jeu : Mythe ou réalité, Qui suis-je ?, Défi ou mime, Définition, Bon geste ou mauvais geste.</desc>
-  <g stroke="#9db3c2" stroke-width="2" stroke-dasharray="5 6" fill="none">
-    <line x1="280" y1="132" x2="280" y2="101"/><line x1="350" y1="190" x2="385" y2="176"/>
-    <line x1="330" y1="278" x2="350" y2="293"/><line x1="230" y1="278" x2="210" y2="293"/>
-    <line x1="210" y1="190" x2="174" y2="176"/>
+  <defs>
+    <radialGradient id="v360g" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fdeede"/></radialGradient>
+  </defs>
+  <circle cx="280" cy="210" r="104" fill="#e8793c" opacity=".10"/>
+  <g fill="none" stroke-width="16" stroke-linecap="round">
+    <path d="M239.8 143.1 A78 78 0 0 1 320.2 143.1" stroke="#c75f27"/>
+    <path d="M331.2 151.1 A78 78 0 0 1 356.0 227.5" stroke="#146354"/>
+    <path d="M351.8 240.5 A78 78 0 0 1 286.8 287.7" stroke="#1b7f8a"/>
+    <path d="M273.2 287.7 A78 78 0 0 1 208.2 240.5" stroke="#4f7391"/>
+    <path d="M204.0 227.5 A78 78 0 0 1 228.8 151.1" stroke="#8a5a00"/>
   </g>
-  <circle cx="280" cy="210" r="80" fill="#163854"/>
-  <circle cx="280" cy="210" r="70" fill="none" stroke="#e8793c" stroke-width="3"/>
-  <text x="280" y="172" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">BAME PRÉVENTION</text>
-  <text x="280" y="228" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="60" font-weight="700" fill="#ffffff">360</text>
-  <text x="280" y="256" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#f6c7a8">le jeu de plateau</text>
+  <circle cx="280" cy="210" r="62" fill="url(#v360g)"/>
+  <circle cx="280" cy="210" r="56" fill="none" stroke="#e8793c" stroke-opacity=".45" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <text x="280" y="182" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="3" fill="#146354">BAME</text>
+  <text x="280" y="226" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="54" font-weight="700" fill="#c75f27">360</text>
+  <text x="280" y="246" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5" fill="#146354">PRÉVENTION</text>
   <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
-    <rect x="205" y="49" width="150" height="52" rx="12" fill="#c75f27"/><text x="280" y="81" fill="#ffffff">Mythe ou réalité</text>
-    <rect x="385" y="142" width="150" height="52" rx="12" fill="#146354"/><text x="460" y="174" fill="#ffffff">Qui suis-je ?</text>
-    <rect x="316" y="293" width="150" height="52" rx="12" fill="#1b7f8a"/><text x="391" y="325" fill="#ffffff">Défi / Mime</text>
-    <rect x="94" y="293" width="150" height="52" rx="12" fill="#ffffff" stroke="#163854" stroke-width="3"/><text x="169" y="325" fill="#163854">Définition</text>
-    <rect x="24" y="142" width="150" height="52" rx="12" fill="#8a5a00"/><text x="99" y="166" fill="#ffffff" font-size="14">Bon geste</text><text x="99" y="184" fill="#ffffff" font-size="14">Mauvais geste</text>
+    <rect x="205" y="49" width="150" height="52" rx="14" fill="#c75f27"/><text x="280" y="81" fill="#ffffff">Mythe ou réalité</text>
+    <rect x="385" y="142" width="150" height="52" rx="14" fill="#146354"/><text x="460" y="174" fill="#ffffff">Qui suis-je ?</text>
+    <rect x="316" y="293" width="150" height="52" rx="14" fill="#1b7f8a"/><text x="391" y="325" fill="#ffffff">Défi / Mime</text>
+    <rect x="94" y="293" width="150" height="52" rx="14" fill="#4f7391"/><text x="169" y="325" fill="#ffffff">Définition</text>
+    <rect x="24" y="142" width="150" height="52" rx="14" fill="#8a5a00"/><text x="99" y="166" fill="#ffffff" font-size="14">Bon geste</text><text x="99" y="184" fill="#ffffff" font-size="14">Mauvais geste</text>
   </g>
 </svg>'''
 
