@@ -46,7 +46,7 @@ FOOTER_ENTREPRISE = [
     ("/philosophie.html", "Notre philosophie"),
     ("/duerp.html", "DUERP"),
     ("/test-reflexe.html", "Test de réflexe"),
-    ("/prevention-360.html", "BAME PRÉVENTION 360"),
+    ("/prevention-360.html", "BAMEPREVENTION 360"),
     ("/contact.html", "Contact"),
 ]
 FOOTER_LEGAL = [
