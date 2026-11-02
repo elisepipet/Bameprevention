@@ -1274,7 +1274,7 @@ PREVENTION_360_BODY = f"""
         <span class="eyebrow">Un jeu pour apprendre ensemble</span>
         <h2>On joue, on se trompe, on recommence</h2>
         <p class="muted">BAME PRÉVENTION 360 transforme la prévention en moment d'équipe. Chaque joueur avance sur le plateau, pioche des cartes, répond, mime, définit, et découvre les bons gestes de son quotidien, sans jargon et sans pression.</p>
-        <p class="muted">Chaque carte s'appuie sur une source officielle (INRS, Assurance Maladie, ministères).</p>
+        <p class="muted">Chaque carte s'appuie sur une source officielle.</p>
         <a class="btn btn-primary" href="/contact.html">Proposer un atelier à mon équipe</a>
       </div>
     </div>
