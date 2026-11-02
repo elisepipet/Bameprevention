@@ -36,6 +36,28 @@ def doc_links(items):
 # =================================================================
 # ACCUEIL
 # =================================================================
+VISUEL_360 = '''<svg class="visuel-360" viewBox="0 0 560 410" role="img" aria-labelledby="v360t v360d" xmlns="http://www.w3.org/2000/svg">
+  <title id="v360t">BAME PRÉVENTION 360</title>
+  <desc id="v360d">Au centre, le logo 360. Autour, les cinq familles de cartes du jeu : Mythe ou réalité, Qui suis-je ?, Défi ou mime, Définition, Bon geste ou mauvais geste.</desc>
+  <g stroke="#9db3c2" stroke-width="2" stroke-dasharray="5 6" fill="none">
+    <line x1="280" y1="132" x2="280" y2="101"/><line x1="350" y1="190" x2="385" y2="176"/>
+    <line x1="330" y1="278" x2="350" y2="293"/><line x1="230" y1="278" x2="210" y2="293"/>
+    <line x1="210" y1="190" x2="174" y2="176"/>
+  </g>
+  <circle cx="280" cy="210" r="80" fill="#163854"/>
+  <circle cx="280" cy="210" r="70" fill="none" stroke="#e8793c" stroke-width="3"/>
+  <text x="280" y="172" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1" fill="#ffffff">BAME PRÉVENTION</text>
+  <text x="280" y="228" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="60" font-weight="700" fill="#ffffff">360</text>
+  <text x="280" y="256" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" fill="#f6c7a8">le jeu de plateau</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle">
+    <rect x="205" y="49" width="150" height="52" rx="12" fill="#c75f27"/><text x="280" y="81" fill="#ffffff">Mythe ou réalité</text>
+    <rect x="385" y="142" width="150" height="52" rx="12" fill="#146354"/><text x="460" y="174" fill="#ffffff">Qui suis-je ?</text>
+    <rect x="316" y="293" width="150" height="52" rx="12" fill="#1b7f8a"/><text x="391" y="325" fill="#ffffff">Défi / Mime</text>
+    <rect x="94" y="293" width="150" height="52" rx="12" fill="#ffffff" stroke="#163854" stroke-width="3"/><text x="169" y="325" fill="#163854">Définition</text>
+    <rect x="24" y="142" width="150" height="52" rx="12" fill="#8a5a00"/><text x="99" y="166" fill="#ffffff" font-size="14">Bon geste</text><text x="99" y="184" fill="#ffffff" font-size="14">Mauvais geste</text>
+  </g>
+</svg>'''
+
 INDEX_BODY = f"""
 <section class="hero">
   <div class="container">
@@ -215,6 +237,21 @@ INDEX_BODY = f"""
           </div>
         </div>
       </details>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="gap:40px;align-items:center;">
+      <div>{VISUEL_360}</div>
+      <div>
+        <span class="eyebrow">Mon jeu</span>
+        <h2>BAME PRÉVENTION 360</h2>
+        <p class="muted">Un jeu de plateau original pour parler de prévention en équipe, avec les cartes de vos propres unités de travail. On joue, on se trompe, on recommence.</p>
+        <p class="muted" style="font-size:.95rem;">Création déposée auprès de l'INPI : toute reproduction est interdite sans autorisation.</p>
+        <a class="btn btn-primary" href="/prevention-360.html">Découvrir le jeu</a>
+      </div>
     </div>
   </div>
 </section>
@@ -1220,6 +1257,70 @@ CGV_DUERP_BODY = """
 </section>
 """
 
+PREVENTION_360_BODY = f"""
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/index.html">Accueil</a> / BAME PRÉVENTION 360</div>
+    <h1>BAME PRÉVENTION 360</h1>
+    <p class="lede">Le jeu de plateau qui fait parler de prévention en équipe, à partir des risques réels de votre entreprise.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="gap:40px;align-items:center;">
+      <div>{VISUEL_360}</div>
+      <div>
+        <span class="eyebrow">Un jeu pour apprendre ensemble</span>
+        <h2>On joue, on se trompe, on recommence</h2>
+        <p class="muted">BAME PRÉVENTION 360 transforme la prévention en moment d'équipe. Chaque joueur avance sur le plateau, pioche des cartes, répond, mime, définit, et découvre les bons gestes de son quotidien, sans jargon et sans pression.</p>
+        <p class="muted">Chaque carte s'appuie sur une source officielle (INRS, Assurance Maladie, ministères).</p>
+        <a class="btn btn-primary" href="/contact.html">Proposer un atelier à mon équipe</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--cream);">
+  <div class="container">
+    <div class="center" style="max-width:640px;margin:0 auto 32px;">
+      <span class="eyebrow">Comment ça marche</span>
+      <h2>Un jeu construit pour votre entreprise</h2>
+    </div>
+    <div class="grid grid-3" style="gap:24px;">
+      <div class="card">
+        <div class="icon">{ICONS['target']}</div>
+        <h3>Un univers par entreprise</h3>
+        <p class="muted">Le jeu est décliné pour votre activité : vos équipes jouent avec des situations qui leur ressemblent.</p>
+      </div>
+      <div class="card">
+        <div class="icon">{ICONS['book']}</div>
+        <h3>Une pioche par unité de travail</h3>
+        <p class="muted">Chaque unité de travail a ses propres cartes, construites à partir de votre DUERP.</p>
+      </div>
+      <div class="card">
+        <div class="icon">{ICONS['users']}</div>
+        <h3>Cinq familles de cartes</h3>
+        <p class="muted">Mythe ou réalité, Qui suis-je ?, Défi ou mime, Définition, Bon geste ou mauvais geste : de quoi varier les plaisirs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card" style="max-width:820px;margin:0 auto;display:flex;gap:20px;align-items:flex-start;">
+      <div class="icon" style="margin:0;flex:none;">{ICONS['shield']}</div>
+      <div>
+        <h2 style="font-size:1.5rem;margin:0 0 10px;">Un jeu original, déposé auprès de l'INPI</h2>
+        <p class="muted" style="margin:0 0 10px;">BAME PRÉVENTION 360 est une création originale de Laure PIPET. Le jeu a fait l'objet d'un dépôt auprès de l'INPI (enveloppe e-Soleau du 27 octobre 2026), qui atteste de sa date de création.</p>
+        <p class="muted" style="margin:0;">Le plateau, les règles et les cartes ne peuvent être reproduits, copiés ni utilisés sans autorisation écrite de leur autrice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+"""
+
 TEST_REFLEXE_BODY = f"""
 <section class="page-hero">
   <div class="container">
@@ -1249,6 +1350,7 @@ PAGES = {
     "gestes-et-postures": ("Formation Gestes et Postures — Prévention des TMS", "Formation Gestes et Postures, 7h, pour prévenir les troubles musculosquelettiques dans tous les secteurs d'activité.", GESTES_POSTURES_BODY),
     "duerp": ("DUERP — Document Unique d'Évaluation des Risques", "Accompagnement à l'élaboration et la mise à jour de votre Document Unique d'Évaluation des Risques Professionnels.", DUERP_BODY),
     "test-reflexe": ("Test de réflexe — Premiers secours — BAME PRÉVENTION", "Sept situations d'urgence pour tester vos réflexes de secouriste : arrêt cardiaque, étouffement, brûlure, saignement. Avec les sources officielles.", TEST_REFLEXE_BODY),
+    "prevention-360": ("BAME PRÉVENTION 360 — Le jeu de plateau de prévention", "BAME PRÉVENTION 360 : un jeu de plateau original pour parler de prévention en équipe, à partir des risques réels de votre entreprise. Déposé auprès de l'INPI.", PREVENTION_360_BODY),
     "contact": ("Contact — BAME PRÉVENTION", "Contactez BAME PRÉVENTION pour construire votre projet de prévention : formulaire, téléphone, email et adresse.", CONTACT_BODY),
     "mentions-legales": ("Mentions légales — BAME PRÉVENTION", "Mentions légales du site bameprevention.fr : éditeur, hébergeur, propriété intellectuelle et données personnelles.", MENTIONS_LEGALES_BODY),
     "cgv-formation": ("CGV Formation — BAME PRÉVENTION", "Conditions générales de vente des prestations de formation professionnelle BAME PRÉVENTION.", CGV_FORMATION_BODY),

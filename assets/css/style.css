@@ -481,3 +481,6 @@ p{ margin:0 0 1em; }
 .jeu--hero .jeu-explication{ font-size:1.05rem; }
 @media (max-width:600px){ .jeu--hero{ padding:18px 16px; } .jeu--hero .jeu-question{ font-size:1.12rem; } }
 .jeu--haut{ margin-top:0; margin-bottom:28px; }
+
+/* Visuel du jeu BAME PRÉVENTION 360 */
+.visuel-360{ width:100%; height:auto; display:block; }
