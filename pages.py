@@ -208,23 +208,56 @@ INDEX_BODY = f"""
       <span class="eyebrow" style="background:rgba(255,255,255,.15);color:#fff;">Chiffres clés</span>
       <h2>Merci aux organismes de leur confiance</h2>
     </div>
-    <div class="stats">
-      <div class="stat">
-        <div class="stat-number" data-count="260">260</div>
-        <div class="stat-label">formations en prévention réalisées en sous-traitance depuis 2022</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number" data-count="1673">1&nbsp;673</div>
-        <div class="stat-label">salariés formés avec succès, toutes formations confondues</div>
-        <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Décompte réalisé au 5 juin 2026</div>
-      </div>
+    <h3 style="color:#fff;text-align:center;margin:0 0 16px;">Ma pédagogie <span style="font-weight:400;opacity:.8;">(depuis 2022)</span></h3>
+    <div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:900px;margin:0 auto;">
       <div class="stat">
         <div class="stat-number" data-count="98" data-suffix="&nbsp;%">98&nbsp;%</div>
-        <div class="stat-label">de satisfaction sur la qualité pédagogique</div>
+        <div class="stat-label">de satisfaction sur ma qualité pédagogique, toutes formations confondues</div>
+      </div>
+    </div>
+    <h3 style="color:#fff;text-align:center;margin:40px 0 16px;">En sous-traitance <span style="font-weight:400;opacity:.8;">(depuis 2022)</span></h3>
+    <div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:900px;margin:0 auto;">
+      <div class="stat">
+        <div class="stat-number" data-count="260">260</div>
+        <div class="stat-label">formations en prévention réalisées en sous-traitance</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" data-count="1696">1&nbsp;696</div>
+        <div class="stat-label">salariés formés en sous-traitance</div>
+        <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Décompte réalisé au 29 octobre 2026</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" data-count="97" data-suffix="&nbsp;%">97&nbsp;%</div>
+        <div class="stat-label">de satisfaction en sous-traitance</div>
+        <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Moyenne des sessions de 2026</div>
+      </div>
+    </div>
+    <h3 style="color:#fff;text-align:center;margin:40px 0 16px;">En direct avec BAME PRÉVENTION <span style="font-weight:400;opacity:.8;">(depuis 2025)</span></h3>
+    <div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:900px;margin:0 auto;">
+      <div class="stat">
+        <div class="stat-number" data-count="5">5</div>
+        <div class="stat-label">formations réalisées en direct</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" data-count="17">17</div>
+        <div class="stat-label">salariés formés en direct</div>
+        <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Décompte réalisé au 29 octobre 2026</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number" data-count="99" data-suffix="&nbsp;%">99&nbsp;%</div>
+        <div class="stat-label">de satisfaction en direct</div>
+        <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Moyenne des sessions depuis 2025</div>
+      </div>
+    </div>
+    <h3 style="color:#fff;text-align:center;margin:40px 0 16px;">Sensibilisations <span style="font-weight:400;opacity:.8;">(2026)</span></h3>
+    <div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:900px;margin:0 auto;">
+      <div class="stat">
+        <div class="stat-number" data-count="139">139</div>
+        <div class="stat-label">personnes sensibilisées lors d'ateliers collectifs</div>
       </div>
       <div class="stat">
         <div class="stat-number" data-count="88">88</div>
-        <div class="stat-label">salariés formés en une journée lors d'un atelier malaise &amp; nutrition</div>
+        <div class="stat-label">salariés sensibilisés en une journée lors d'un atelier malaise &amp; nutrition</div>
       </div>
     </div>
   </div>
@@ -573,7 +606,7 @@ SECOURS_BODY = f"""
 
     <div class="card" style="margin-top:32px;display:flex;gap:16px;align-items:center;">
       <div class="icon" style="margin:0;">{ICONS['award']}</div>
-      <div><h3 style="margin-bottom:4px;">100 % de satisfaction</h3><p class="muted mb-0">Une formation réalisée à ce jour par mon organisme en direct en 2025.</p></div>
+      <div><h3 style="margin-bottom:4px;">99 % de satisfaction en direct</h3><p class="muted mb-0">5 formations réalisées et 17 salariés formés par mon organisme auprès de ses clients directs depuis 2025.</p></div>
     </div>
 
     <p class="muted text-center" style="font-size:.78rem;max-width:600px;margin:24px auto 0;"><strong>Financement :</strong> formation facturée à l'entreprise, qui règle puis peut demander le remboursement à son OPCO (la subrogation n'est plus la règle). BAME PRÉVENTION ne propose pas de financement CPF.</p>
