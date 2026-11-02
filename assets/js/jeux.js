@@ -180,7 +180,7 @@
       var cta = el("p", "jeu-cta");
       cta.appendChild(document.createTextNode("Une nouvelle question vous attend demain. En attendant, "));
       var a = el("a", null, "testez vos réflexes en 7 situations");
-      a.href = "/test-reflexe.html";
+      a.href = document.getElementById("test-reflexe") && !document.getElementById("test-reflexe").closest(".page-hero") && document.getElementById("test") ? "#test" : "/test-reflexe.html";
       cta.appendChild(a); cta.appendChild(document.createTextNode("."));
       live.appendChild(cta);
     }));
