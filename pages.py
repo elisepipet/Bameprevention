@@ -57,7 +57,7 @@ INDEX_BODY = f"""
       <img src="/assets/images/laure-pipet.jpg" alt="Laure Pipet, formatrice BAME PRÉVENTION">
       <div class="role">Votre formatrice</div>
       <h3>Laure PIPET</h3>
-      <p class="quote">« 98 % de satisfaction sur ma qualité pédagogique depuis que j'ai commencé en 2022, essentiellement en sous-traitance. »</p>
+      <p class="quote">« Pas de DUERP ? On le construit ensemble. Puis on forme, on se trompe, on recommence, et on repart plus fort. »</p>
     </div>
   </div>
 </section>
@@ -262,6 +262,20 @@ INDEX_BODY = f"""
     </div>
   </div>
 </section>
+
+<section class="section" id="quiz">
+  <div class="container">
+    <div class="jeu-intro">
+      <span class="eyebrow">Quiz du jour</span>
+      <h2>Une question de prévention par jour</h2>
+      <p class="muted">Une minute pour tester vos connaissances en secourisme et en prévention. Chaque réponse est accompagnée de sa source officielle.</p>
+    </div>
+    <div class="jeu" id="quiz-jour"></div>
+    <p class="center" style="margin-top:20px;"><a class="btn btn-outline" href="/test-reflexe.html">Tester mes réflexes en 7 situations</a></p>
+  </div>
+  <script src="/assets/js/jeux.js" defer></script>
+</section>
+
 
 <section class="section">
   <div class="container">
@@ -1202,6 +1216,25 @@ CGV_DUERP_BODY = """
 </section>
 """
 
+TEST_REFLEXE_BODY = f"""
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/index.html">Accueil</a> / Test de réflexe</div>
+    <h1>Test de réflexe</h1>
+    <p class="lede">Sept situations d'urgence, trois réponses possibles. Saurez-vous réagir comme un sauveteur ?</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="jeu" id="test-reflexe"></div>
+    <p class="muted center" style="max-width:640px;margin:24px auto 0;font-size:.95rem;">Ce jeu rappelle les bons réflexes, d'après l'Assurance Maladie (ameli), l'INRS et le Code du travail. Il ne remplace pas une formation : seule la pratique permet d'acquérir les bons gestes. En cas d'urgence réelle, appelez le 15 ou le 112.</p>
+  </div>
+  <script src="/assets/js/jeux.js" defer></script>
+</section>
+"""
+
+
 PAGES = {
     "index": ("Accueil — BAME PRÉVENTION", "Organisme de formation en santé-sécurité au travail : SST, MAC SST, gestes qui sauvent, gestes et postures, DUERP. Prévenir aujourd'hui pour mieux vivre demain.", INDEX_BODY),
     "a-propos": ("À propos — BAME PRÉVENTION", "Laure PIPET, formatrice SST/PRAP habilitée INRS, fondatrice de BAME PRÉVENTION. Une démarche de prévention humaine, concrète et durable.", A_PROPOS_BODY),
@@ -1211,6 +1244,7 @@ PAGES = {
     "secours": ("Les gestes qui sauvent — Bonnes pratiques de secours", "Formations citoyen sauveteur, de 3h30 à 7h : les bonnes pratiques pour secourir une victime au quotidien.", SECOURS_BODY),
     "gestes-et-postures": ("Formation Gestes et Postures — Prévention des TMS", "Formation Gestes et Postures, 7h, pour prévenir les troubles musculosquelettiques dans tous les secteurs d'activité.", GESTES_POSTURES_BODY),
     "duerp": ("DUERP — Document Unique d'Évaluation des Risques", "Accompagnement à l'élaboration et la mise à jour de votre Document Unique d'Évaluation des Risques Professionnels.", DUERP_BODY),
+    "test-reflexe": ("Test de réflexe — Premiers secours — BAME PRÉVENTION", "Sept situations d'urgence pour tester vos réflexes de secouriste : arrêt cardiaque, étouffement, brûlure, saignement. Avec les sources officielles.", TEST_REFLEXE_BODY),
     "contact": ("Contact — BAME PRÉVENTION", "Contactez BAME PRÉVENTION pour construire votre projet de prévention : formulaire, téléphone, email et adresse.", CONTACT_BODY),
     "mentions-legales": ("Mentions légales — BAME PRÉVENTION", "Mentions légales du site bameprevention.fr : éditeur, hébergeur, propriété intellectuelle et données personnelles.", MENTIONS_LEGALES_BODY),
     "cgv-formation": ("CGV Formation — BAME PRÉVENTION", "Conditions générales de vente des prestations de formation professionnelle BAME PRÉVENTION.", CGV_FORMATION_BODY),

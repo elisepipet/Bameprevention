@@ -34,6 +34,7 @@ FORMATIONS = [
 
 SECONDARY_LINKS = [
     ("/duerp.html", "DUERP"),
+    ("/test-reflexe.html", "Test de réflexe"),
     ("/a-propos.html", "À propos"),
     ("/philosophie.html", "Notre philosophie"),
 ]
@@ -43,6 +44,7 @@ FOOTER_ENTREPRISE = [
     ("/a-propos.html", "À propos de nous"),
     ("/philosophie.html", "Notre philosophie"),
     ("/duerp.html", "DUERP"),
+    ("/test-reflexe.html", "Test de réflexe"),
     ("/contact.html", "Contact"),
 ]
 FOOTER_LEGAL = [
