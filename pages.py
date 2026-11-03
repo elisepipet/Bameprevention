@@ -72,6 +72,10 @@ INDEX_BODY = f"""
     <div>
       <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff;">Organisme de formation habilité SST</span>
       <h1>Anticipez les risques avec BAME PRÉVENTION</h1>
+      <div class="jeu jeu--hero jeu--haut">
+        <p class="jeu-label">Quiz du jour · une question de prévention par jour</p>
+        <div id="quiz-jour"></div>
+      </div>
       <p class="lede">Chez BAME PRÉVENTION, la prévention est au cœur de chaque action. Un accompagnement sur mesure pour anticiper les risques, préserver le bien-être et agir de manière responsable — avant que les situations ne deviennent critiques.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/contact.html">Construire mon projet de prévention</a>
@@ -91,16 +95,6 @@ INDEX_BODY = f"""
     </div>
   </div>
   <script src="/assets/js/jeux.js" defer></script>
-</section>
-
-<section class="section" id="quiz" style="padding-bottom:0;">
-  <div class="container">
-    <div class="jeu-intro">
-      <span class="eyebrow">Quiz du jour</span>
-      <h2>Une question de prévention par jour</h2>
-    </div>
-    <div class="jeu" id="quiz-jour"></div>
-  </div>
 </section>
 
 <section class="section" id="test">

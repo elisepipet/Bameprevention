@@ -471,7 +471,15 @@ p{ margin:0 0 1em; }
 @media (max-width:600px){ .jeu{ padding:22px 18px; } .jeu-question{ font-size:1.3rem; } }
 @media (prefers-reduced-motion:reduce){ .jeu-option{ transition:none; } }
 
-/* Quiz du jour placé en haut de la page d'accueil, à gauche de la photo */
+/* Quiz du jour : carte compacte dans le hero, sous le titre */
+.jeu--hero{ margin:22px 0 28px; padding:18px 20px; max-width:none; text-align:left; color:var(--ink); }
+.jeu--hero .jeu-label{ margin:0 0 8px; font-weight:800; font-size:.8rem; letter-spacing:.06em; text-transform:uppercase; color:var(--teal-dark); }
+.jeu--hero .jeu-question{ font-size:1.1rem; margin-bottom:12px; }
+.jeu--hero .jeu-option{ font-size:1rem; padding:11px 14px; }
+.jeu--hero .jeu-options{ gap:8px; }
+.jeu--hero .jeu-verdict{ font-size:1.1rem; }
+.jeu--hero .jeu-explication{ font-size:1rem; }
+@media (max-width:600px){ .jeu--hero{ padding:16px 14px; margin:16px 0 22px; } .jeu--hero .jeu-question{ font-size:1.05rem; } }
 
 /* Visuel du jeu BAME PRÉVENTION 360 */
 .visuel-360{ width:100%; height:auto; display:block; }
