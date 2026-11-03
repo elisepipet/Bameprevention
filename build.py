@@ -34,6 +34,8 @@ FORMATIONS = [
 
 SECONDARY_LINKS = [
     ("/duerp.html", "DUERP"),
+    ("/test-reflexe.html", "Test de réflexe"),
+    ("/prevention-360.html", "Prévention 360"),
     ("/a-propos.html", "À propos"),
     ("/philosophie.html", "Notre philosophie"),
 ]

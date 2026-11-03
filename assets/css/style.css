@@ -156,7 +156,7 @@ p{ margin:0 0 1em; }
 .nav-toggle span::before{ position:absolute; top:-6px; }
 .nav-toggle span::after{ position:absolute; top:6px; }
 
-@media (max-width:980px){
+@media (max-width:1300px){
   .main-nav{
     position:fixed; inset:0 0 0 auto; width:min(320px,85vw); height:100vh;
     background:var(--paper); flex-direction:column; align-items:stretch; gap:2px;
@@ -472,15 +472,6 @@ p{ margin:0 0 1em; }
 @media (prefers-reduced-motion:reduce){ .jeu-option{ transition:none; } }
 
 /* Quiz du jour placé en haut de la page d'accueil, à gauche de la photo */
-.jeu--hero{ margin-top:28px; padding:22px 24px; max-width:none; text-align:left; color:var(--ink); }
-.jeu--hero .jeu-label{ margin:0 0 10px; font-weight:800; font-size:.85rem; letter-spacing:.06em; text-transform:uppercase; color:var(--teal-dark); }
-.jeu--hero .jeu-question{ font-size:1.2rem; margin-bottom:14px; }
-.jeu--hero .jeu-option{ font-size:1.05rem; padding:13px 16px; }
-.jeu--hero .jeu-options{ gap:10px; }
-.jeu--hero .jeu-verdict{ font-size:1.15rem; }
-.jeu--hero .jeu-explication{ font-size:1.05rem; }
-@media (max-width:600px){ .jeu--hero{ padding:18px 16px; } .jeu--hero .jeu-question{ font-size:1.12rem; } }
-.jeu--haut{ margin-top:0; margin-bottom:28px; }
 
 /* Visuel du jeu BAME PRÉVENTION 360 */
 .visuel-360{ width:100%; height:auto; display:block; }
