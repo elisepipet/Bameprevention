@@ -72,10 +72,6 @@ INDEX_BODY = f"""
     <div>
       <span class="eyebrow" style="background:rgba(255,255,255,.12);color:#fff;">Organisme de formation habilité SST</span>
       <h1>Anticipez les risques avec BAME PRÉVENTION</h1>
-      <div class="jeu jeu--hero jeu--haut">
-        <p class="jeu-label">Quiz du jour · une question de prévention par jour</p>
-        <div id="quiz-jour"></div>
-      </div>
       <p class="lede">Chez BAME PRÉVENTION, la prévention est au cœur de chaque action. Un accompagnement sur mesure pour anticiper les risques, préserver le bien-être et agir de manière responsable — avant que les situations ne deviennent critiques.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/contact.html">Construire mon projet de prévention</a>
@@ -87,11 +83,17 @@ INDEX_BODY = f"""
         <a class="hero-badge" href="/philosophie.html#accessibilite"><span class="badge-ico">{ICONS['users']}</span>Référente handicap / fiche Agefiph</a>
       </div>
     </div>
-    <div class="hero-card">
-      <img src="/assets/images/laure-pipet.jpg" alt="Laure Pipet, formatrice BAME PRÉVENTION">
-      <div class="role">Votre formatrice</div>
-      <h3>Laure PIPET</h3>
-      <p class="quote">« Pas de DUERP ? On le construit ensemble. Puis on forme, on se trompe, on recommence, et on repart plus fort. »</p>
+    <div>
+      <div class="hero-card">
+        <img src="/assets/images/laure-pipet.jpg" alt="Laure Pipet, formatrice BAME PRÉVENTION">
+        <div class="role">Votre formatrice</div>
+        <h3>Laure PIPET</h3>
+        <p class="quote">« Pas de DUERP ? On le construit ensemble. Puis on forme, on se trompe, on recommence, et on repart plus fort. »</p>
+      </div>
+      <div class="jeu jeu--hero jeu--haut">
+        <p class="jeu-label">Quiz du jour · une question de prévention par jour</p>
+        <div id="quiz-jour"></div>
+      </div>
     </div>
   </div>
   <script src="/assets/js/jeux.js" defer></script>
