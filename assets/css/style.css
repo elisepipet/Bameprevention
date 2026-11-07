@@ -484,5 +484,5 @@ p{ margin:0 0 1em; }
 /* Visuel du jeu BAME PRÉVENTION 360 */
 .visuel-360{ width:100%; height:auto; display:block; }
 
-.hero-card img.mascotte{ width:50%; aspect-ratio:1/1; object-fit:contain; border-radius:0; margin:14px auto 4px; display:block; }
-.mascotte-legende{ text-align:center; font-weight:700; color:var(--teal-dark); font-size:.9rem; margin:0; }
+.hero-card img.mascotte{ width:50%; height:auto; aspect-ratio:auto; object-fit:contain; border-radius:0; margin:14px auto 0; display:block; }
+.mascotte-legende{ text-align:center; font-weight:700; color:var(--teal-dark); font-size:.9rem; margin:2px 0 0; }
