@@ -315,6 +315,11 @@ INDEX_BODY = f"""
         <div class="stat-label">de satisfaction en direct</div>
         <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Moyenne des sessions depuis 2025</div>
       </div>
+      <div class="stat">
+        <div class="stat-number" data-count="12">12</div>
+        <div class="stat-label">DUERP réalisés (audits, rédactions et mises à jour)</div>
+        <div class="stat-label" style="font-size:.72rem;opacity:.65;margin-top:4px;">Décompte réalisé au 7 novembre 2026</div>
+      </div>
     </div>
     <h3 style="color:#fff;text-align:center;margin:40px 0 16px;">Sensibilisations en sous-traitance <span style="font-weight:400;opacity:.8;">(2026)</span></h3>
     <div class="stats" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:900px;margin:0 auto;">
