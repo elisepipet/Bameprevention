@@ -89,6 +89,8 @@ INDEX_BODY = f"""
         <div class="role">Votre formatrice</div>
         <h3>Laure PIPET</h3>
         <p class="quote">« Pas de DUERP ? On le construit ensemble. Puis on forme, on se trompe, on recommence, et on repart plus fort. »</p>
+        <img class="mascotte" src="/assets/images/mascotte-bamy.jpg" alt="Bamy, la mascotte de BAME PRÉVENTION : un casque de chantier souriant qui lève le pouce" loading="lazy" width="700" height="700">
+        <p class="mascotte-legende">Bamy, la mascotte de la prévention</p>
       </div>
       <div class="jeu jeu--hero jeu--haut">
         <p class="jeu-label">Quiz du jour · une question de prévention par jour</p>
